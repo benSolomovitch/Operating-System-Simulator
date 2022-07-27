@@ -1,0 +1,15 @@
+Name:RR.txt
+Date:30/05/2022 11:42:17
+Scheduling Algorithm:Round-Robin
+Processes Amount:2
+Slice Size:5
+Average Process Length:52
+Average Total Slices:62
+Average Waiting Slices:49
+System.Windows.Forms.Label, Text: Asm1.txt
+System.Windows.Forms.Label, Text: Asm3.txt
+System.Windows.Forms.Label, Text: 
+System.Windows.Forms.Label, Text: 
+System.Windows.Forms.Label, Text: First Fit
+System.Windows.Forms.Label, Text: 101
+System.Windows.Forms.Label, Text: 112

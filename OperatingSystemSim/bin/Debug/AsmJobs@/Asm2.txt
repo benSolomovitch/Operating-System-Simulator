@@ -1,0 +1,13 @@
+DATASEG
+
+CODSEG
+
+memalloc 20
+mov cx,10
+Final:
+mov ax,1
+int 21
+mov dx,ax
+mov ax,2
+int 21
+loop Final

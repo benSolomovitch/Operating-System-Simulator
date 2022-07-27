@@ -1,0 +1,18 @@
+DATASEG
+num1 db 0
+num2 db 1
+CODSEG
+
+mov cx,200
+Fibo:
+mov bx,num1
+add bx,num2
+mov dx,bx
+mov bx,num2
+mov num1,bx
+mov bx,dx
+mov num2,bx
+memalloc 1
+loop Fibo
+
+

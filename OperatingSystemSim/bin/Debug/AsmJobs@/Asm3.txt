@@ -1,0 +1,12 @@
+DATASEG
+
+CODSEG
+
+memalloc 10
+
+mov dx,5
+mov bx,3
+add dx,bx
+mov ax,2
+int 21
+
