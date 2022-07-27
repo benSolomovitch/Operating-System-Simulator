@@ -42,7 +42,7 @@ namespace OperatingSystemSim
         {
             this.value = value;
         }
-
+    
         public override string ToString()
         {
             if (next == null)

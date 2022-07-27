@@ -21,7 +21,6 @@ namespace OperatingSystemSim
             InitializeComponent();
         }
 
-
         private void FormStatistics_Load(object sender, EventArgs e)
         {
             string[] lines = File.ReadAllLines(path);

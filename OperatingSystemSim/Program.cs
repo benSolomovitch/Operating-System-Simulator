@@ -58,7 +58,7 @@ namespace OperatingSystemSim
             public static int jobNum = 0;
             public static long currentTime = 0;
             public static long idNext = -1;
-            public static string[] files = Directory.GetFiles(@"C:\Users\Ben\Desktop\example\AsmJobs@");
+            public static string[] files = Directory.GetFiles(Directory.GetCurrentDirectory() + @"\AsmJobs@");
             
             public static long asmCounter = 0;
             public static int readyThreads = 0;
@@ -872,15 +872,6 @@ namespace OperatingSystemSim
                     flag = RunLine(lines[i].Split(' '), i, personalPCB, lines);
                     if(flag)
                     {
-                        //Console.WriteLine(lines[i]);
-                        //foreach (KeyValuePair<string, int> kvp in registers)
-                        //{
-                        //    //textBox3.Text += ("Key = {0}, Value = {1}", kvp.Key, kvp.Value);
-                        //    Console.WriteLine("Key = {0}, Value = {1}", kvp.Key, kvp.Value);
-                        //}
-                        //Console.WriteLine();
-
-
                         personalPCB.SetRemainingJobLength(personalPCB.GetRemainingLength() - 1);
                         commandsCounter++;
 
@@ -1339,7 +1330,7 @@ namespace OperatingSystemSim
 
             _notificationSem.WaitOne();
 
-            using (StreamWriter sw = File.AppendText(@"C:\Users\Ben\Desktop\example\Notifications.txt"))
+            using (StreamWriter sw = File.AppendText(Directory.GetCurrentDirectory() + @"\Notifications.txt"))
             {
                 sw.WriteLine("Notification Slice: {0} --> {1}", time, text);
             }

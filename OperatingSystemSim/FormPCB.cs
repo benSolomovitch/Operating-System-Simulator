@@ -54,7 +54,5 @@ namespace OperatingSystemSim
                 label26.Text = total.ToString();
             }
         }
-
-       
     }
 }

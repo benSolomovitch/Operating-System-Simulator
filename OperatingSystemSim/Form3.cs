@@ -47,7 +47,7 @@ namespace OperatingSystemSim
         {
             if(path=="")
             {
-                PopUpForm3 f = new PopUpForm3("process",@"C:\Users\Ben\Desktop\example\AsmJobs@\");
+                PopUpForm3 f = new PopUpForm3("process", Directory.GetCurrentDirectory() + @"\AsmJobs@\");
                 DialogResult dialogresult = f.ShowDialog();
                 if (dialogresult == DialogResult.OK)
                 {
@@ -69,7 +69,7 @@ namespace OperatingSystemSim
 
         private void openToolStripButton_Click(object sender, EventArgs e)
         {
-            OpenForm3 f = new OpenForm3( @"C:\Users\Ben\Desktop\example\AsmJobs@", "AsmJobs@");
+            OpenForm3 f = new OpenForm3(Directory.GetCurrentDirectory() + @"\AsmJobs@", "AsmJobs@");
             DialogResult dialogresult = f.ShowDialog();
             if (dialogresult == DialogResult.OK)
             {

@@ -67,10 +67,7 @@ namespace OperatingSystemSim
             else
             {
                 this.DialogResult = DialogResult.None;
-            }
-            
+            }   
         }
-
-       
     }
 }

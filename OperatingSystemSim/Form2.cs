@@ -90,7 +90,7 @@ namespace OperatingSystemSim
             }
 
 
-            Program.Global.files = Directory.GetFiles(@"C:\Users\Ben\Desktop\example\AsmJobs@");
+            Program.Global.files = Directory.GetFiles(Directory.GetCurrentDirectory() + @"\AsmJobs@");
             for (int i = 0; i < Program.Global.files.Length; i++)
             {
                 this.checkedListBox1.Items.Add(Program.Global.files[i].Substring(Program.Global.files[i].LastIndexOf("AsmJobs@") + 9));

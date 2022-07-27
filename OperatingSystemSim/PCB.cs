@@ -149,10 +149,6 @@ namespace OperatingSystemSim
             this.memoryUsage = mem;
         }
 
-
-
-
-
         public int GetMemoryUsage()
         {
             return this.memoryUsage;

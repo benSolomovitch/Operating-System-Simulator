@@ -18,7 +18,7 @@ namespace OperatingSystemSim
         private string folderPath;
         private string folder;
 
-        //private string[] files = Directory.GetFiles(@"C:\Users\Ben\Desktop\example\AsmJobs@");
+        
         private string[] files;
         private string path = "";
 

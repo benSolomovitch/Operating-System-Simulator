@@ -23,7 +23,7 @@ namespace OperatingSystemSim
         {
             this.ownerID = ownerID;
         }
-
+    
         public void SetAllocated(bool allocated)
         {
             this.allocated = allocated;

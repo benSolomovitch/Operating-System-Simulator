@@ -24,16 +24,16 @@ namespace OperatingSystemSim
         private bool enter = false;
         private PCB[] inputRequests = new PCB[4];
         private string path;
-        
+
 
         public Form1()
         {
-            
+
             InitializeComponent();
 
-            
+
             Program.DisplayNotification += (string s) => NotificationTextBox(s);
-            Program.UpdateProgressBars += (int id, string command,int length) => ProgressBarStep(id, command,length);
+            Program.UpdateProgressBars += (int id, string command, int length) => ProgressBarStep(id, command, length);
             Program.ControlTextBoxes += (int id, string command, string text, PCB personalPCB) => ProcessesTextBox(id, command, text, personalPCB);
 
             progressBars[0] = progressBar1;
@@ -62,18 +62,22 @@ namespace OperatingSystemSim
             Label[] processesLabels = { this.label15, this.label24, this.label22, this.label21 };
             //Page3
             for (int i = 0; i < 4; i++)
-                processesLabels[i].Text="";
+                processesLabels[i].Text = "";
 
             this.label17.Text = "";
             this.label19.Text = "";
             this.label23.Text = "";
 
 
-            File.WriteAllText(@"C:\Users\Ben\Desktop\example\Notifications.txt", "");
+            string rootPath = Directory.GetCurrentDirectory() + @"\Notifications.txt";
+            if (!(File.Exists(rootPath)))
+            {
+                File.CreateText(rootPath);
+            }
         }
 
         delegate void SetTextBoxesCallback(int id, string command, string text, PCB personalPCB);
-        public void ProcessesTextBox( int id=-1,string command="",string text = "",PCB personalPCB=null)
+        public void ProcessesTextBox(int id = -1, string command = "", string text = "", PCB personalPCB = null)
         {
             if (this.NotificationsBox.InvokeRequired)
             {
@@ -83,14 +87,14 @@ namespace OperatingSystemSim
             else
             {
                 if (command == "PRINT")
-                    textBoxes[id - 1].AppendText(text+"\r\n");
+                    textBoxes[id - 1].AppendText(text + "\r\n");
                 else if (command == "INPUT")
                 {
                     this.inputRequests[id - 1] = personalPCB;
                     textBoxes[id - 1].AppendText(">>");
                     textBoxes[id - 1].MaxLength = textBoxes[id - 1].TextLength + 1;
                     textBoxes[id - 1].SelectionStart = textBoxes[id - 1].TextLength;
-                    textBoxes[id - 1].ReadOnly = false; 
+                    textBoxes[id - 1].ReadOnly = false;
                 }
             }
         }
@@ -110,13 +114,13 @@ namespace OperatingSystemSim
             }
         }
 
-        delegate void SetProgressBarCallBack(int id, string command,int length);
-        public void ProgressBarStep(int id,string command,int length=0)
+        delegate void SetProgressBarCallBack(int id, string command, int length);
+        public void ProgressBarStep(int id, string command, int length = 0)
         {
-            if (this.progressBars[id-1].InvokeRequired)
+            if (this.progressBars[id - 1].InvokeRequired)
             {
                 SetProgressBarCallBack d = new SetProgressBarCallBack(ProgressBarStep);
-                this.Invoke(d, new object[] { id,command,length });
+                this.Invoke(d, new object[] { id, command, length });
             }
             else
             {
@@ -126,16 +130,16 @@ namespace OperatingSystemSim
                 }
                 else if (command == "GET-LENGTH")
                 {
-                    progressBars[Convert.ToInt32(id) - 1].Maximum=length;
+                    progressBars[Convert.ToInt32(id) - 1].Maximum = length;
                 }
             }
         }
 
         private void buttonRunStop_Click(object sender, EventArgs e)
         {
-            if(this.buttonRunStop.BackColor==Color.LimeGreen)
+            if (this.buttonRunStop.BackColor == Color.LimeGreen)
             {
-                File.WriteAllText(@"C:\Users\Ben\Desktop\example\Notifications.txt", "");
+                File.WriteAllText(Directory.GetCurrentDirectory() + @"\Notifications.txt", "");
                 this.NotificationsBox.Text = "";
 
 
@@ -150,7 +154,7 @@ namespace OperatingSystemSim
                     this.pcbButtons[i].Enabled = false;
                 }
 
-                for (int i = 0; i < this.progressBars.Length; i++) 
+                for (int i = 0; i < this.progressBars.Length; i++)
                 {
                     this.progressBars[i].Value = 0;
                 }
@@ -159,7 +163,7 @@ namespace OperatingSystemSim
                 this.trackBar1.Enabled = false;
                 this.buttonRunStop.BackColor = Color.OrangeRed;
                 this.buttonPauseResume.Enabled = true;
-        
+
             }
             else
             {
@@ -171,18 +175,18 @@ namespace OperatingSystemSim
 
                 int i = 0;
                 Node<PCB> t = Program.allprocesses;
-                while(t!=null)
+                while (t != null)
                 {
-                    if (t.GetValue().GetProcessType() == 'a') 
+                    if (t.GetValue().GetProcessType() == 'a')
                     {
                         pcbButtons[i].Enabled = true;
                         i++;
                     }
-                    
+
                     t = t.GetNext();
                 }
 
-                if(Program.timeToSleep)
+                if (Program.timeToSleep)
                 {
                     Program.timeToSleep = false;
                     Program._systemSleep.Release();
@@ -193,7 +197,7 @@ namespace OperatingSystemSim
                 this.trackBar1.Enabled = true;
                 this.buttonSave.Enabled = true;
                 WriteStatistics();
-         
+
             }
         }
 
@@ -227,9 +231,9 @@ namespace OperatingSystemSim
             this.label6.Text = Program.Global.schedulingAlgoType;//Scheduling Algorithm
             this.label8.Text = counter.ToString();//Processes Amount
             this.label28.Text = Program.sliceSize.ToString();//Slice Size
-            
+
             //Page2
-            if(counter!=0)
+            if (counter != 0)
             {
                 this.label10.Text = Math.Round((double)(sumLength / counter), 2).ToString();//Average Process Length
                 this.label12.Text = Math.Round((double)(sumTotalSlices / counter), 2).ToString();//Average Total Slices
@@ -242,8 +246,8 @@ namespace OperatingSystemSim
                 this.label14.Text = "--";//Average Waiting Time
             }
 
-            Label[] processesLabels = { this.label15, this.label24,this.label22,this.label21 };
-            
+            Label[] processesLabels = { this.label15, this.label24, this.label22, this.label21 };
+
             //Page3
             t = Program.allprocesses;
             int i = 0;
@@ -262,13 +266,13 @@ namespace OperatingSystemSim
             label19.Text = Program.maxMemUse.ToString();
             label23.Text = Program.totalMemUse.ToString();
         }
-       
+
 
         private void buttonPauseResume_Click(object sender, EventArgs e)
         {
-            if(!Program.timeToSleep)
+            if (!Program.timeToSleep)
             {
-                
+
                 Program.timeToSleep = true;
                 for (int i = 0; i < this.textBoxes.Length; i++)
                     textBoxes[i].Enabled = false;
@@ -314,7 +318,7 @@ namespace OperatingSystemSim
             Program.Global.filter = this.trackBar1.Value;
 
             this.NotificationsBox.Text = "";
-            string[] lines = File.ReadAllLines(@"C:\Users\Ben\Desktop\example\Notifications.txt");
+            string[] lines = File.ReadAllLines(Directory.GetCurrentDirectory() + @"\Notifications.txt");
             for (int i = 0; i < lines.Length; i++)
             {
                 if (Program.Global.filter == 0)
@@ -325,25 +329,24 @@ namespace OperatingSystemSim
                 {
                     bool flag = true;
                     string[] t = Convert.ToString(lines[i]).Split(' ');
-                    for (int j = 0; j < t.Length&&flag; j++)
+                    for (int j = 0; j < t.Length && flag; j++)
                     {
                         if (t[j] == "Listener")
                         {
                             flag = false;
-                            
                         }
                     }
-                    if(flag)
+                    if (flag)
                         NotificationsBox.AppendText(lines[i] + "\r\n");
                 }
-                
+
                 else if (Program.Global.filter == 2)
                 {
                     bool flag = true;
                     string[] t = Convert.ToString(lines[i]).Split(' ');
                     for (int j = 0; j < t.Length && flag; j++)
                     {
-                        if (t[j] == "Listener"||t[j]=="Scheduler")
+                        if (t[j] == "Listener" || t[j] == "Scheduler")
                         {
                             flag = false;
                         }
@@ -362,7 +365,7 @@ namespace OperatingSystemSim
                 e.Handled = true;
                 t.ReadOnly = true;
                 t.MaxLength = 32767;
-                
+
                 int index = Array.IndexOf(this.textBoxes, t);
                 inputRequests[index].SetRegistersState("ax", t.Text[t.Text.Length - 1]);
                 t.AppendText("\r\n");
@@ -412,7 +415,7 @@ namespace OperatingSystemSim
                 Form3 f = new Form3();
                 Program.processesForm = f;
             }
-            
+
             Program.processesForm.Location = this.Location;
             Program.processesForm.Show();
             this.Hide();
@@ -422,7 +425,7 @@ namespace OperatingSystemSim
         {
             Node<PCB> t = Program.allprocesses;
             bool flag = true;
-            while(flag)
+            while (flag)
             {
                 if (t.GetValue().GetID() == 1)
                     flag = false;
@@ -488,8 +491,8 @@ namespace OperatingSystemSim
 
         private void buttonSave_Click(object sender, EventArgs e)
         {
-           
-            PopUpForm3 f = new PopUpForm3("last running",  @"C:\Users\Ben\Desktop\example\LastRunnings@\");
+
+            PopUpForm3 f = new PopUpForm3("last running", Directory.GetCurrentDirectory() + @"\LastRunnings@\");
             DialogResult dialogresult = f.ShowDialog();
             if (dialogresult == DialogResult.OK)
             {
@@ -526,15 +529,15 @@ namespace OperatingSystemSim
 
         private void button6_Click(object sender, EventArgs e)
         {
-            OpenForm3 f = new OpenForm3(@"C:\Users\Ben\Desktop\example\LastRunnings@", "LastRunnings@");
+            OpenForm3 f = new OpenForm3(Directory.GetCurrentDirectory() + @"\LastRunnings@", "LastRunnings@");
             DialogResult dialogresult = f.ShowDialog();
 
             if (dialogresult == DialogResult.OK)
             {
                 f.Dispose();
                 this.path = f.GetPath();
-              
-              
+
+
                 FormStatistics formStat = new FormStatistics(this.path);
                 formStat.Location = this.Location;
                 formStat.Show();
@@ -563,7 +566,7 @@ namespace OperatingSystemSim
                 if (dialogresult == DialogResult.OK)
                 {
                     f.Dispose();
-                    if(Program.Global.isClockAlive)
+                    if (Program.Global.isClockAlive)
                     {
                         if (Program.timeToSleep)
                         {
@@ -587,7 +590,5 @@ namespace OperatingSystemSim
             Environment.Exit(0);
             Application.Exit();
         }
-
-       
     }
 }
