@@ -1,1316 +1,645 @@
-Notification Slice: 0 --> Scheduler ready
 Notification Slice: 0 --> Clock running
 Notification Slice: 0 --> Job Listener ready
+Notification Slice: 0 --> Scheduler ready
 Notification Slice: 1 --> Scheduler running
 Notification Slice: 1 --> Scheduler found 1 jobs
 Notification Slice: 1 --> Scheduler ready
 Notification Slice: 2 --> Job Listener running
-Notification Slice: 2 --> Thread 1 memory adress: 0
-Notification Slice: 2 --> Thread 1 expected memory usage: 219
-Notification Slice: 2 --> Thread 1 is using: 0-18
 Notification Slice: 2 --> Job Listener ready
 Notification Slice: 3 --> Scheduler running
 Notification Slice: 3 --> Scheduler found 1 jobs
 Notification Slice: 3 --> Scheduler ready
 Notification Slice: 4 --> Job Listener running
-Notification Slice: 4 --> A new job was found
-Notification Slice: 4 --> Thread 1 init
 Notification Slice: 4 --> Job Listener ready
 Notification Slice: 5 --> Scheduler running
-Notification Slice: 5 --> Thread 1 ready
 Notification Slice: 5 --> Scheduler found 1 jobs
 Notification Slice: 5 --> Scheduler ready
 Notification Slice: 6 --> Job Listener running
-Notification Slice: 6 --> Thread 2 memory adress: 219
-Notification Slice: 6 --> Thread 2 expected memory usage: 11
-Notification Slice: 6 --> Thread 2 is using: 219-219
 Notification Slice: 6 --> Job Listener ready
 Notification Slice: 7 --> Scheduler running
-Notification Slice: 7 --> Scheduler found 2 jobs
+Notification Slice: 7 --> Scheduler found 1 jobs
 Notification Slice: 7 --> Scheduler ready
-Notification Slice: 8 --> Thread 1 running
-Notification Slice: 8 --> Thread 1 suspended, opening a file
+Notification Slice: 8 --> Job Listener running
+Notification Slice: 8 --> Job Listener ready
 Notification Slice: 9 --> Scheduler running
-Notification Slice: 9 --> Thread 1 ready
-Notification Slice: 9 --> Scheduler found 2 jobs
+Notification Slice: 9 --> Scheduler found 1 jobs
 Notification Slice: 9 --> Scheduler ready
 Notification Slice: 10 --> Job Listener running
-Notification Slice: 10 --> A new job was found
-Notification Slice: 10 --> Thread 2 init
 Notification Slice: 10 --> Job Listener ready
 Notification Slice: 11 --> Scheduler running
-Notification Slice: 11 --> Scheduler found 2 jobs
+Notification Slice: 11 --> Scheduler found 1 jobs
 Notification Slice: 11 --> Scheduler ready
-Notification Slice: 12 --> Thread 1 running
-Notification Slice: 12 --> Thread 2 ready
-Notification Slice: 12 --> Thread 1 ready
+Notification Slice: 12 --> Job Listener running
+Notification Slice: 12 --> Job Listener ready
 Notification Slice: 13 --> Scheduler running
-Notification Slice: 13 --> Scheduler found 3 jobs
+Notification Slice: 13 --> Scheduler found 1 jobs
 Notification Slice: 13 --> Scheduler ready
 Notification Slice: 14 --> Job Listener running
 Notification Slice: 14 --> Job Listener ready
 Notification Slice: 15 --> Scheduler running
-Notification Slice: 15 --> Scheduler found 3 jobs
+Notification Slice: 15 --> Scheduler found 1 jobs
 Notification Slice: 15 --> Scheduler ready
-Notification Slice: 16 --> Thread 2 running
-Notification Slice: 16 --> Thread 2 suspended, opening a file
+Notification Slice: 16 --> Job Listener running
+Notification Slice: 16 --> Job Listener ready
 Notification Slice: 17 --> Scheduler running
-Notification Slice: 17 --> Thread 2 ready
-Notification Slice: 17 --> Scheduler found 3 jobs
+Notification Slice: 17 --> Scheduler found 1 jobs
 Notification Slice: 17 --> Scheduler ready
-Notification Slice: 18 --> Thread 1 running
-Notification Slice: 18 --> Thread 1 ready
+Notification Slice: 18 --> Job Listener running
+Notification Slice: 18 --> Job Listener ready
 Notification Slice: 19 --> Scheduler running
-Notification Slice: 19 --> Scheduler found 3 jobs
+Notification Slice: 19 --> Scheduler found 1 jobs
 Notification Slice: 19 --> Scheduler ready
 Notification Slice: 20 --> Job Listener running
 Notification Slice: 20 --> Job Listener ready
 Notification Slice: 21 --> Scheduler running
-Notification Slice: 21 --> Scheduler found 3 jobs
+Notification Slice: 21 --> Scheduler found 1 jobs
 Notification Slice: 21 --> Scheduler ready
-Notification Slice: 22 --> Thread 2 running
-Notification Slice: 22 --> Thread 2 is using: 220-229
-Notification Slice: 22 --> Thread 2 ready
+Notification Slice: 22 --> Job Listener running
+Notification Slice: 22 --> Job Listener ready
 Notification Slice: 23 --> Scheduler running
-Notification Slice: 23 --> Scheduler found 3 jobs
+Notification Slice: 23 --> Scheduler found 1 jobs
 Notification Slice: 23 --> Scheduler ready
-Notification Slice: 24 --> Thread 1 running
-Notification Slice: 24 --> Thread 1 is using: 19-19
-Notification Slice: 24 --> Thread 1 ready
+Notification Slice: 24 --> Job Listener running
+Notification Slice: 24 --> Job Listener ready
 Notification Slice: 25 --> Scheduler running
-Notification Slice: 25 --> Scheduler found 3 jobs
+Notification Slice: 25 --> Scheduler found 1 jobs
 Notification Slice: 25 --> Scheduler ready
 Notification Slice: 26 --> Job Listener running
 Notification Slice: 26 --> Job Listener ready
 Notification Slice: 27 --> Scheduler running
-Notification Slice: 27 --> Scheduler found 3 jobs
+Notification Slice: 27 --> Scheduler found 1 jobs
 Notification Slice: 27 --> Scheduler ready
-Notification Slice: 28 --> Thread 2 running
-Notification Slice: 28 --> Thread 2 suspended, output
+Notification Slice: 28 --> Job Listener running
+Notification Slice: 28 --> Job Listener ready
 Notification Slice: 29 --> Scheduler running
-Notification Slice: 29 --> Scheduler found 3 jobs
-Notification Slice: 29 --> Thread 2 ready
+Notification Slice: 29 --> Scheduler found 1 jobs
 Notification Slice: 29 --> Scheduler ready
-Notification Slice: 30 --> Thread 1 running
-Notification Slice: 30 --> Thread 1 ready
+Notification Slice: 30 --> Job Listener running
+Notification Slice: 30 --> Job Listener ready
 Notification Slice: 31 --> Scheduler running
-Notification Slice: 31 --> Scheduler found 3 jobs
+Notification Slice: 31 --> Scheduler found 1 jobs
 Notification Slice: 31 --> Scheduler ready
 Notification Slice: 32 --> Job Listener running
 Notification Slice: 32 --> Job Listener ready
 Notification Slice: 33 --> Scheduler running
-Notification Slice: 33 --> Scheduler found 3 jobs
+Notification Slice: 33 --> Scheduler found 1 jobs
 Notification Slice: 33 --> Scheduler ready
-Notification Slice: 34 --> Thread 2 running
-Notification Slice: 34 --> Thread 2 terminated
-Notification Slice: 34 --> Thread 2 released its memory.
+Notification Slice: 34 --> Job Listener running
+Notification Slice: 34 --> Job Listener ready
 Notification Slice: 35 --> Scheduler running
-Notification Slice: 35 --> Scheduler found 2 jobs
+Notification Slice: 35 --> Scheduler found 1 jobs
 Notification Slice: 35 --> Scheduler ready
 Notification Slice: 36 --> Job Listener running
 Notification Slice: 36 --> Job Listener ready
 Notification Slice: 37 --> Scheduler running
-Notification Slice: 37 --> Scheduler found 2 jobs
-Notification Slice: 38 --> Scheduler ready
-Notification Slice: 38 --> Thread 1 running
-Notification Slice: 38 --> Thread 1 is using: 20-20
-Notification Slice: 38 --> Thread 1 ready
+Notification Slice: 37 --> Scheduler found 1 jobs
+Notification Slice: 38 --> Job Listener running
+Notification Slice: 37 --> Scheduler ready
+Notification Slice: 38 --> Job Listener ready
 Notification Slice: 39 --> Scheduler running
-Notification Slice: 39 --> Scheduler found 2 jobs
+Notification Slice: 39 --> Scheduler found 1 jobs
 Notification Slice: 39 --> Scheduler ready
 Notification Slice: 40 --> Job Listener running
 Notification Slice: 40 --> Job Listener ready
 Notification Slice: 41 --> Scheduler running
-Notification Slice: 41 --> Scheduler found 2 jobs
+Notification Slice: 41 --> Scheduler found 1 jobs
 Notification Slice: 41 --> Scheduler ready
-Notification Slice: 42 --> Thread 1 running
-Notification Slice: 42 --> Thread 1 ready
+Notification Slice: 42 --> Job Listener running
+Notification Slice: 42 --> Job Listener ready
 Notification Slice: 43 --> Scheduler running
-Notification Slice: 43 --> Scheduler found 2 jobs
+Notification Slice: 43 --> Scheduler found 1 jobs
 Notification Slice: 43 --> Scheduler ready
 Notification Slice: 44 --> Job Listener running
 Notification Slice: 44 --> Job Listener ready
 Notification Slice: 45 --> Scheduler running
-Notification Slice: 45 --> Scheduler found 2 jobs
+Notification Slice: 45 --> Scheduler found 1 jobs
 Notification Slice: 45 --> Scheduler ready
-Notification Slice: 46 --> Thread 1 running
-Notification Slice: 46 --> Thread 1 is using: 21-21
-Notification Slice: 46 --> Thread 1 ready
+Notification Slice: 46 --> Job Listener running
+Notification Slice: 46 --> Job Listener ready
 Notification Slice: 47 --> Scheduler running
-Notification Slice: 47 --> Scheduler found 2 jobs
+Notification Slice: 47 --> Scheduler found 1 jobs
 Notification Slice: 47 --> Scheduler ready
 Notification Slice: 48 --> Job Listener running
 Notification Slice: 48 --> Job Listener ready
 Notification Slice: 49 --> Scheduler running
-Notification Slice: 49 --> Scheduler found 2 jobs
+Notification Slice: 49 --> Scheduler found 1 jobs
 Notification Slice: 49 --> Scheduler ready
-Notification Slice: 50 --> Thread 1 running
-Notification Slice: 50 --> Thread 1 ready
+Notification Slice: 50 --> Job Listener running
+Notification Slice: 50 --> Job Listener ready
 Notification Slice: 51 --> Scheduler running
-Notification Slice: 51 --> Scheduler found 2 jobs
+Notification Slice: 51 --> Scheduler found 1 jobs
 Notification Slice: 51 --> Scheduler ready
 Notification Slice: 52 --> Job Listener running
 Notification Slice: 52 --> Job Listener ready
 Notification Slice: 53 --> Scheduler running
-Notification Slice: 53 --> Scheduler found 2 jobs
+Notification Slice: 53 --> Scheduler found 1 jobs
+Notification Slice: 54 --> Job Listener running
 Notification Slice: 53 --> Scheduler ready
-Notification Slice: 54 --> Thread 1 running
-Notification Slice: 54 --> Thread 1 is using: 22-22
-Notification Slice: 54 --> Thread 1 ready
+Notification Slice: 54 --> Job Listener ready
 Notification Slice: 55 --> Scheduler running
-Notification Slice: 55 --> Scheduler found 2 jobs
-Notification Slice: 55 --> Scheduler ready
+Notification Slice: 55 --> Scheduler found 1 jobs
 Notification Slice: 56 --> Job Listener running
+Notification Slice: 55 --> Scheduler ready
 Notification Slice: 56 --> Job Listener ready
 Notification Slice: 57 --> Scheduler running
-Notification Slice: 57 --> Scheduler found 2 jobs
+Notification Slice: 57 --> Scheduler found 1 jobs
+Notification Slice: 58 --> Job Listener running
 Notification Slice: 57 --> Scheduler ready
-Notification Slice: 58 --> Thread 1 running
-Notification Slice: 58 --> Thread 1 is using: 23-23
-Notification Slice: 58 --> Thread 1 ready
+Notification Slice: 58 --> Job Listener ready
 Notification Slice: 59 --> Scheduler running
-Notification Slice: 59 --> Scheduler found 2 jobs
+Notification Slice: 59 --> Scheduler found 1 jobs
 Notification Slice: 59 --> Scheduler ready
 Notification Slice: 60 --> Job Listener running
 Notification Slice: 60 --> Job Listener ready
 Notification Slice: 61 --> Scheduler running
-Notification Slice: 61 --> Scheduler found 2 jobs
+Notification Slice: 61 --> Scheduler found 1 jobs
 Notification Slice: 61 --> Scheduler ready
-Notification Slice: 62 --> Thread 1 running
-Notification Slice: 62 --> Thread 1 ready
+Notification Slice: 62 --> Job Listener running
+Notification Slice: 62 --> Job Listener ready
 Notification Slice: 63 --> Scheduler running
-Notification Slice: 63 --> Scheduler found 2 jobs
+Notification Slice: 63 --> Scheduler found 1 jobs
 Notification Slice: 63 --> Scheduler ready
 Notification Slice: 64 --> Job Listener running
 Notification Slice: 64 --> Job Listener ready
 Notification Slice: 65 --> Scheduler running
-Notification Slice: 65 --> Scheduler found 2 jobs
-Notification Slice: 66 --> Thread 1 running
-Notification Slice: 66 --> Scheduler ready
-Notification Slice: 66 --> Thread 1 is using: 24-24
-Notification Slice: 66 --> Thread 1 ready
+Notification Slice: 65 --> Scheduler found 1 jobs
+Notification Slice: 65 --> Scheduler ready
+Notification Slice: 66 --> Job Listener running
+Notification Slice: 66 --> Job Listener ready
 Notification Slice: 67 --> Scheduler running
-Notification Slice: 67 --> Scheduler found 2 jobs
+Notification Slice: 67 --> Scheduler found 1 jobs
 Notification Slice: 67 --> Scheduler ready
 Notification Slice: 68 --> Job Listener running
 Notification Slice: 68 --> Job Listener ready
 Notification Slice: 69 --> Scheduler running
-Notification Slice: 69 --> Scheduler found 2 jobs
+Notification Slice: 69 --> Scheduler found 1 jobs
 Notification Slice: 69 --> Scheduler ready
-Notification Slice: 70 --> Thread 1 running
-Notification Slice: 70 --> Thread 1 ready
+Notification Slice: 70 --> Job Listener running
+Notification Slice: 70 --> Job Listener ready
 Notification Slice: 71 --> Scheduler running
-Notification Slice: 71 --> Scheduler found 2 jobs
+Notification Slice: 71 --> Scheduler found 1 jobs
 Notification Slice: 71 --> Scheduler ready
 Notification Slice: 72 --> Job Listener running
 Notification Slice: 72 --> Job Listener ready
 Notification Slice: 73 --> Scheduler running
-Notification Slice: 73 --> Scheduler found 2 jobs
+Notification Slice: 73 --> Scheduler found 1 jobs
 Notification Slice: 73 --> Scheduler ready
-Notification Slice: 74 --> Thread 1 running
-Notification Slice: 74 --> Thread 1 is using: 25-25
-Notification Slice: 74 --> Thread 1 ready
+Notification Slice: 74 --> Job Listener running
+Notification Slice: 74 --> Job Listener ready
 Notification Slice: 75 --> Scheduler running
-Notification Slice: 75 --> Scheduler found 2 jobs
+Notification Slice: 75 --> Scheduler found 1 jobs
 Notification Slice: 75 --> Scheduler ready
 Notification Slice: 76 --> Job Listener running
 Notification Slice: 76 --> Job Listener ready
 Notification Slice: 77 --> Scheduler running
-Notification Slice: 77 --> Scheduler found 2 jobs
+Notification Slice: 77 --> Scheduler found 1 jobs
 Notification Slice: 77 --> Scheduler ready
-Notification Slice: 78 --> Thread 1 running
-Notification Slice: 78 --> Thread 1 ready
+Notification Slice: 78 --> Job Listener running
+Notification Slice: 78 --> Job Listener ready
 Notification Slice: 79 --> Scheduler running
-Notification Slice: 79 --> Scheduler found 2 jobs
+Notification Slice: 79 --> Scheduler found 1 jobs
 Notification Slice: 79 --> Scheduler ready
 Notification Slice: 80 --> Job Listener running
 Notification Slice: 80 --> Job Listener ready
 Notification Slice: 81 --> Scheduler running
-Notification Slice: 81 --> Scheduler found 2 jobs
+Notification Slice: 81 --> Scheduler found 1 jobs
 Notification Slice: 81 --> Scheduler ready
-Notification Slice: 82 --> Thread 1 running
-Notification Slice: 82 --> Thread 1 is using: 26-26
-Notification Slice: 82 --> Thread 1 ready
+Notification Slice: 82 --> Job Listener running
+Notification Slice: 82 --> Job Listener ready
 Notification Slice: 83 --> Scheduler running
-Notification Slice: 83 --> Scheduler found 2 jobs
-Notification Slice: 84 --> Job Listener running
+Notification Slice: 83 --> Scheduler found 1 jobs
 Notification Slice: 83 --> Scheduler ready
+Notification Slice: 84 --> Job Listener running
 Notification Slice: 84 --> Job Listener ready
 Notification Slice: 85 --> Scheduler running
-Notification Slice: 85 --> Scheduler found 2 jobs
+Notification Slice: 85 --> Scheduler found 1 jobs
 Notification Slice: 85 --> Scheduler ready
-Notification Slice: 86 --> Thread 1 running
-Notification Slice: 86 --> Thread 1 ready
+Notification Slice: 86 --> Job Listener running
+Notification Slice: 86 --> Job Listener ready
 Notification Slice: 87 --> Scheduler running
-Notification Slice: 87 --> Scheduler found 2 jobs
+Notification Slice: 87 --> Scheduler found 1 jobs
 Notification Slice: 87 --> Scheduler ready
 Notification Slice: 88 --> Job Listener running
 Notification Slice: 88 --> Job Listener ready
 Notification Slice: 89 --> Scheduler running
-Notification Slice: 89 --> Scheduler found 2 jobs
+Notification Slice: 89 --> Scheduler found 1 jobs
 Notification Slice: 89 --> Scheduler ready
-Notification Slice: 90 --> Thread 1 running
-Notification Slice: 90 --> Thread 1 is using: 27-27
-Notification Slice: 90 --> Thread 1 ready
+Notification Slice: 90 --> Job Listener running
+Notification Slice: 90 --> Job Listener ready
 Notification Slice: 91 --> Scheduler running
-Notification Slice: 91 --> Scheduler found 2 jobs
+Notification Slice: 91 --> Scheduler found 1 jobs
 Notification Slice: 91 --> Scheduler ready
 Notification Slice: 92 --> Job Listener running
 Notification Slice: 92 --> Job Listener ready
 Notification Slice: 93 --> Scheduler running
-Notification Slice: 93 --> Scheduler found 2 jobs
+Notification Slice: 93 --> Scheduler found 1 jobs
 Notification Slice: 93 --> Scheduler ready
-Notification Slice: 94 --> Thread 1 running
-Notification Slice: 94 --> Thread 1 is using: 28-28
-Notification Slice: 94 --> Thread 1 ready
+Notification Slice: 94 --> Job Listener running
+Notification Slice: 94 --> Job Listener ready
 Notification Slice: 95 --> Scheduler running
-Notification Slice: 95 --> Scheduler found 2 jobs
+Notification Slice: 95 --> Scheduler found 1 jobs
 Notification Slice: 95 --> Scheduler ready
 Notification Slice: 96 --> Job Listener running
 Notification Slice: 96 --> Job Listener ready
 Notification Slice: 97 --> Scheduler running
-Notification Slice: 97 --> Scheduler found 2 jobs
+Notification Slice: 97 --> Scheduler found 1 jobs
 Notification Slice: 97 --> Scheduler ready
-Notification Slice: 98 --> Thread 1 running
-Notification Slice: 98 --> Thread 1 ready
+Notification Slice: 98 --> Job Listener running
+Notification Slice: 98 --> Job Listener ready
 Notification Slice: 99 --> Scheduler running
-Notification Slice: 99 --> Scheduler found 2 jobs
+Notification Slice: 99 --> Scheduler found 1 jobs
 Notification Slice: 99 --> Scheduler ready
 Notification Slice: 100 --> Job Listener running
 Notification Slice: 100 --> Job Listener ready
 Notification Slice: 101 --> Scheduler running
-Notification Slice: 101 --> Scheduler found 2 jobs
+Notification Slice: 101 --> Scheduler found 1 jobs
 Notification Slice: 101 --> Scheduler ready
-Notification Slice: 102 --> Thread 1 running
-Notification Slice: 102 --> Thread 1 is using: 29-29
-Notification Slice: 102 --> Thread 1 ready
+Notification Slice: 102 --> Job Listener running
+Notification Slice: 102 --> Job Listener ready
 Notification Slice: 103 --> Scheduler running
-Notification Slice: 103 --> Scheduler found 2 jobs
+Notification Slice: 103 --> Scheduler found 1 jobs
 Notification Slice: 103 --> Scheduler ready
 Notification Slice: 104 --> Job Listener running
 Notification Slice: 104 --> Job Listener ready
 Notification Slice: 105 --> Scheduler running
-Notification Slice: 105 --> Scheduler found 2 jobs
+Notification Slice: 105 --> Scheduler found 1 jobs
 Notification Slice: 105 --> Scheduler ready
-Notification Slice: 106 --> Thread 1 running
-Notification Slice: 106 --> Thread 1 ready
+Notification Slice: 106 --> Job Listener running
+Notification Slice: 106 --> Job Listener ready
 Notification Slice: 107 --> Scheduler running
-Notification Slice: 107 --> Scheduler found 2 jobs
+Notification Slice: 107 --> Scheduler found 1 jobs
 Notification Slice: 107 --> Scheduler ready
 Notification Slice: 108 --> Job Listener running
 Notification Slice: 108 --> Job Listener ready
 Notification Slice: 109 --> Scheduler running
-Notification Slice: 109 --> Scheduler found 2 jobs
+Notification Slice: 109 --> Scheduler found 1 jobs
 Notification Slice: 109 --> Scheduler ready
-Notification Slice: 110 --> Thread 1 running
-Notification Slice: 110 --> Thread 1 is using: 30-30
-Notification Slice: 110 --> Thread 1 ready
+Notification Slice: 110 --> Job Listener running
+Notification Slice: 110 --> Job Listener ready
 Notification Slice: 111 --> Scheduler running
-Notification Slice: 111 --> Scheduler found 2 jobs
+Notification Slice: 111 --> Scheduler found 1 jobs
 Notification Slice: 111 --> Scheduler ready
 Notification Slice: 112 --> Job Listener running
 Notification Slice: 112 --> Job Listener ready
 Notification Slice: 113 --> Scheduler running
-Notification Slice: 113 --> Scheduler found 2 jobs
+Notification Slice: 113 --> Scheduler found 1 jobs
 Notification Slice: 113 --> Scheduler ready
-Notification Slice: 114 --> Thread 1 running
-Notification Slice: 114 --> Thread 1 ready
+Notification Slice: 114 --> Job Listener running
+Notification Slice: 114 --> Job Listener ready
 Notification Slice: 115 --> Scheduler running
-Notification Slice: 115 --> Scheduler found 2 jobs
+Notification Slice: 115 --> Scheduler found 1 jobs
 Notification Slice: 115 --> Scheduler ready
 Notification Slice: 116 --> Job Listener running
 Notification Slice: 116 --> Job Listener ready
 Notification Slice: 117 --> Scheduler running
-Notification Slice: 117 --> Scheduler found 2 jobs
+Notification Slice: 117 --> Scheduler found 1 jobs
 Notification Slice: 117 --> Scheduler ready
-Notification Slice: 118 --> Thread 1 running
-Notification Slice: 118 --> Thread 1 is using: 31-31
-Notification Slice: 118 --> Thread 1 ready
+Notification Slice: 118 --> Job Listener running
+Notification Slice: 118 --> Job Listener ready
 Notification Slice: 119 --> Scheduler running
-Notification Slice: 119 --> Scheduler found 2 jobs
+Notification Slice: 119 --> Scheduler found 1 jobs
 Notification Slice: 119 --> Scheduler ready
 Notification Slice: 120 --> Job Listener running
 Notification Slice: 120 --> Job Listener ready
 Notification Slice: 121 --> Scheduler running
-Notification Slice: 121 --> Scheduler found 2 jobs
+Notification Slice: 121 --> Scheduler found 1 jobs
 Notification Slice: 121 --> Scheduler ready
-Notification Slice: 122 --> Thread 1 running
-Notification Slice: 122 --> Thread 1 ready
+Notification Slice: 122 --> Job Listener running
+Notification Slice: 122 --> Job Listener ready
 Notification Slice: 123 --> Scheduler running
-Notification Slice: 123 --> Scheduler found 2 jobs
+Notification Slice: 123 --> Scheduler found 1 jobs
 Notification Slice: 123 --> Scheduler ready
 Notification Slice: 124 --> Job Listener running
 Notification Slice: 124 --> Job Listener ready
 Notification Slice: 125 --> Scheduler running
-Notification Slice: 125 --> Scheduler found 2 jobs
+Notification Slice: 125 --> Scheduler found 1 jobs
 Notification Slice: 125 --> Scheduler ready
-Notification Slice: 126 --> Thread 1 running
-Notification Slice: 126 --> Thread 1 is using: 32-32
-Notification Slice: 126 --> Thread 1 ready
+Notification Slice: 126 --> Job Listener running
+Notification Slice: 126 --> Job Listener ready
 Notification Slice: 127 --> Scheduler running
-Notification Slice: 127 --> Scheduler found 2 jobs
+Notification Slice: 127 --> Scheduler found 1 jobs
 Notification Slice: 127 --> Scheduler ready
 Notification Slice: 128 --> Job Listener running
 Notification Slice: 128 --> Job Listener ready
 Notification Slice: 129 --> Scheduler running
-Notification Slice: 129 --> Scheduler found 2 jobs
+Notification Slice: 129 --> Scheduler found 1 jobs
 Notification Slice: 129 --> Scheduler ready
-Notification Slice: 130 --> Thread 1 running
-Notification Slice: 130 --> Thread 1 is using: 33-33
-Notification Slice: 130 --> Thread 1 ready
+Notification Slice: 130 --> Job Listener running
+Notification Slice: 130 --> Job Listener ready
 Notification Slice: 131 --> Scheduler running
-Notification Slice: 131 --> Scheduler found 2 jobs
-Notification Slice: 132 --> Job Listener running
+Notification Slice: 131 --> Scheduler found 1 jobs
 Notification Slice: 131 --> Scheduler ready
+Notification Slice: 132 --> Job Listener running
 Notification Slice: 132 --> Job Listener ready
 Notification Slice: 133 --> Scheduler running
-Notification Slice: 133 --> Scheduler found 2 jobs
+Notification Slice: 133 --> Scheduler found 1 jobs
 Notification Slice: 133 --> Scheduler ready
-Notification Slice: 134 --> Thread 1 running
-Notification Slice: 134 --> Thread 1 ready
+Notification Slice: 134 --> Job Listener running
+Notification Slice: 134 --> Job Listener ready
 Notification Slice: 135 --> Scheduler running
-Notification Slice: 135 --> Scheduler found 2 jobs
+Notification Slice: 135 --> Scheduler found 1 jobs
 Notification Slice: 135 --> Scheduler ready
 Notification Slice: 136 --> Job Listener running
 Notification Slice: 136 --> Job Listener ready
 Notification Slice: 137 --> Scheduler running
-Notification Slice: 137 --> Scheduler found 2 jobs
+Notification Slice: 137 --> Scheduler found 1 jobs
+Notification Slice: 138 --> Job Listener running
 Notification Slice: 137 --> Scheduler ready
-Notification Slice: 138 --> Thread 1 running
-Notification Slice: 138 --> Thread 1 is using: 34-34
-Notification Slice: 138 --> Thread 1 ready
+Notification Slice: 138 --> Job Listener ready
 Notification Slice: 139 --> Scheduler running
-Notification Slice: 139 --> Scheduler found 2 jobs
+Notification Slice: 139 --> Scheduler found 1 jobs
 Notification Slice: 139 --> Scheduler ready
 Notification Slice: 140 --> Job Listener running
 Notification Slice: 140 --> Job Listener ready
 Notification Slice: 141 --> Scheduler running
-Notification Slice: 141 --> Scheduler found 2 jobs
+Notification Slice: 141 --> Scheduler found 1 jobs
 Notification Slice: 141 --> Scheduler ready
-Notification Slice: 142 --> Thread 1 running
-Notification Slice: 142 --> Thread 1 ready
+Notification Slice: 142 --> Job Listener running
+Notification Slice: 142 --> Job Listener ready
 Notification Slice: 143 --> Scheduler running
-Notification Slice: 143 --> Scheduler found 2 jobs
+Notification Slice: 143 --> Scheduler found 1 jobs
 Notification Slice: 143 --> Scheduler ready
 Notification Slice: 144 --> Job Listener running
 Notification Slice: 144 --> Job Listener ready
 Notification Slice: 145 --> Scheduler running
-Notification Slice: 145 --> Scheduler found 2 jobs
+Notification Slice: 145 --> Scheduler found 1 jobs
 Notification Slice: 145 --> Scheduler ready
-Notification Slice: 146 --> Thread 1 running
-Notification Slice: 146 --> Thread 1 is using: 35-35
-Notification Slice: 146 --> Thread 1 ready
+Notification Slice: 146 --> Job Listener running
+Notification Slice: 146 --> Job Listener ready
 Notification Slice: 147 --> Scheduler running
-Notification Slice: 147 --> Scheduler found 2 jobs
+Notification Slice: 147 --> Scheduler found 1 jobs
 Notification Slice: 147 --> Scheduler ready
 Notification Slice: 148 --> Job Listener running
 Notification Slice: 148 --> Job Listener ready
 Notification Slice: 149 --> Scheduler running
-Notification Slice: 149 --> Scheduler found 2 jobs
+Notification Slice: 149 --> Scheduler found 1 jobs
 Notification Slice: 149 --> Scheduler ready
-Notification Slice: 150 --> Thread 1 running
-Notification Slice: 150 --> Thread 1 ready
+Notification Slice: 150 --> Job Listener running
+Notification Slice: 150 --> Job Listener ready
 Notification Slice: 151 --> Scheduler running
-Notification Slice: 151 --> Scheduler found 2 jobs
+Notification Slice: 151 --> Scheduler found 1 jobs
 Notification Slice: 151 --> Scheduler ready
 Notification Slice: 152 --> Job Listener running
 Notification Slice: 152 --> Job Listener ready
 Notification Slice: 153 --> Scheduler running
-Notification Slice: 153 --> Scheduler found 2 jobs
+Notification Slice: 153 --> Scheduler found 1 jobs
 Notification Slice: 153 --> Scheduler ready
-Notification Slice: 154 --> Thread 1 running
-Notification Slice: 154 --> Thread 1 is using: 36-36
-Notification Slice: 154 --> Thread 1 ready
+Notification Slice: 154 --> Job Listener running
+Notification Slice: 154 --> Job Listener ready
 Notification Slice: 155 --> Scheduler running
-Notification Slice: 155 --> Scheduler found 2 jobs
-Notification Slice: 156 --> Job Listener running
+Notification Slice: 155 --> Scheduler found 1 jobs
 Notification Slice: 155 --> Scheduler ready
+Notification Slice: 156 --> Job Listener running
 Notification Slice: 156 --> Job Listener ready
 Notification Slice: 157 --> Scheduler running
-Notification Slice: 157 --> Scheduler found 2 jobs
+Notification Slice: 157 --> Scheduler found 1 jobs
 Notification Slice: 157 --> Scheduler ready
-Notification Slice: 158 --> Thread 1 running
-Notification Slice: 158 --> Thread 1 ready
+Notification Slice: 158 --> Job Listener running
+Notification Slice: 158 --> Job Listener ready
 Notification Slice: 159 --> Scheduler running
-Notification Slice: 159 --> Scheduler found 2 jobs
+Notification Slice: 159 --> Scheduler found 1 jobs
 Notification Slice: 159 --> Scheduler ready
 Notification Slice: 160 --> Job Listener running
 Notification Slice: 160 --> Job Listener ready
 Notification Slice: 161 --> Scheduler running
-Notification Slice: 161 --> Scheduler found 2 jobs
+Notification Slice: 161 --> Scheduler found 1 jobs
 Notification Slice: 161 --> Scheduler ready
-Notification Slice: 162 --> Thread 1 running
-Notification Slice: 162 --> Thread 1 is using: 37-37
-Notification Slice: 162 --> Thread 1 ready
+Notification Slice: 162 --> Job Listener running
+Notification Slice: 162 --> Job Listener ready
 Notification Slice: 163 --> Scheduler running
-Notification Slice: 163 --> Scheduler found 2 jobs
+Notification Slice: 163 --> Scheduler found 1 jobs
 Notification Slice: 163 --> Scheduler ready
 Notification Slice: 164 --> Job Listener running
 Notification Slice: 164 --> Job Listener ready
 Notification Slice: 165 --> Scheduler running
-Notification Slice: 165 --> Scheduler found 2 jobs
+Notification Slice: 165 --> Scheduler found 1 jobs
 Notification Slice: 165 --> Scheduler ready
-Notification Slice: 166 --> Thread 1 running
-Notification Slice: 166 --> Thread 1 is using: 38-38
-Notification Slice: 166 --> Thread 1 ready
+Notification Slice: 166 --> Job Listener running
+Notification Slice: 166 --> Job Listener ready
 Notification Slice: 167 --> Scheduler running
-Notification Slice: 167 --> Scheduler found 2 jobs
+Notification Slice: 167 --> Scheduler found 1 jobs
 Notification Slice: 167 --> Scheduler ready
 Notification Slice: 168 --> Job Listener running
 Notification Slice: 168 --> Job Listener ready
 Notification Slice: 169 --> Scheduler running
-Notification Slice: 169 --> Scheduler found 2 jobs
+Notification Slice: 169 --> Scheduler found 1 jobs
 Notification Slice: 169 --> Scheduler ready
-Notification Slice: 170 --> Thread 1 running
-Notification Slice: 170 --> Thread 1 ready
+Notification Slice: 170 --> Job Listener running
+Notification Slice: 170 --> Job Listener ready
 Notification Slice: 171 --> Scheduler running
-Notification Slice: 171 --> Scheduler found 2 jobs
-Notification Slice: 171 --> Scheduler ready
+Notification Slice: 171 --> Scheduler found 1 jobs
 Notification Slice: 172 --> Job Listener running
+Notification Slice: 172 --> Scheduler ready
 Notification Slice: 172 --> Job Listener ready
 Notification Slice: 173 --> Scheduler running
-Notification Slice: 173 --> Scheduler found 2 jobs
+Notification Slice: 173 --> Scheduler found 1 jobs
 Notification Slice: 173 --> Scheduler ready
-Notification Slice: 174 --> Thread 1 running
-Notification Slice: 174 --> Thread 1 is using: 39-39
-Notification Slice: 174 --> Thread 1 ready
+Notification Slice: 174 --> Job Listener running
+Notification Slice: 174 --> Job Listener ready
 Notification Slice: 175 --> Scheduler running
-Notification Slice: 175 --> Scheduler found 2 jobs
+Notification Slice: 175 --> Scheduler found 1 jobs
 Notification Slice: 175 --> Scheduler ready
 Notification Slice: 176 --> Job Listener running
 Notification Slice: 176 --> Job Listener ready
 Notification Slice: 177 --> Scheduler running
-Notification Slice: 177 --> Scheduler found 2 jobs
+Notification Slice: 177 --> Scheduler found 1 jobs
 Notification Slice: 177 --> Scheduler ready
-Notification Slice: 178 --> Thread 1 running
-Notification Slice: 178 --> Thread 1 ready
+Notification Slice: 178 --> Job Listener running
+Notification Slice: 178 --> Job Listener ready
 Notification Slice: 179 --> Scheduler running
-Notification Slice: 179 --> Scheduler found 2 jobs
+Notification Slice: 179 --> Scheduler found 1 jobs
 Notification Slice: 179 --> Scheduler ready
 Notification Slice: 180 --> Job Listener running
 Notification Slice: 180 --> Job Listener ready
 Notification Slice: 181 --> Scheduler running
-Notification Slice: 181 --> Scheduler found 2 jobs
+Notification Slice: 181 --> Scheduler found 1 jobs
 Notification Slice: 181 --> Scheduler ready
-Notification Slice: 182 --> Thread 1 running
-Notification Slice: 182 --> Thread 1 is using: 40-40
-Notification Slice: 182 --> Thread 1 ready
+Notification Slice: 182 --> Job Listener running
+Notification Slice: 182 --> Job Listener ready
 Notification Slice: 183 --> Scheduler running
-Notification Slice: 183 --> Scheduler found 2 jobs
+Notification Slice: 183 --> Scheduler found 1 jobs
 Notification Slice: 183 --> Scheduler ready
 Notification Slice: 184 --> Job Listener running
 Notification Slice: 184 --> Job Listener ready
 Notification Slice: 185 --> Scheduler running
-Notification Slice: 185 --> Scheduler found 2 jobs
+Notification Slice: 185 --> Scheduler found 1 jobs
 Notification Slice: 185 --> Scheduler ready
-Notification Slice: 186 --> Thread 1 running
-Notification Slice: 186 --> Thread 1 ready
+Notification Slice: 186 --> Job Listener running
+Notification Slice: 186 --> Job Listener ready
 Notification Slice: 187 --> Scheduler running
-Notification Slice: 187 --> Scheduler found 2 jobs
+Notification Slice: 187 --> Scheduler found 1 jobs
 Notification Slice: 187 --> Scheduler ready
 Notification Slice: 188 --> Job Listener running
 Notification Slice: 188 --> Job Listener ready
 Notification Slice: 189 --> Scheduler running
-Notification Slice: 189 --> Scheduler found 2 jobs
+Notification Slice: 189 --> Scheduler found 1 jobs
 Notification Slice: 189 --> Scheduler ready
-Notification Slice: 190 --> Thread 1 running
-Notification Slice: 190 --> Thread 1 is using: 41-41
-Notification Slice: 190 --> Thread 1 ready
+Notification Slice: 190 --> Job Listener running
+Notification Slice: 190 --> Job Listener ready
 Notification Slice: 191 --> Scheduler running
-Notification Slice: 191 --> Scheduler found 2 jobs
-Notification Slice: 192 --> Job Listener running
+Notification Slice: 191 --> Scheduler found 1 jobs
 Notification Slice: 191 --> Scheduler ready
+Notification Slice: 192 --> Job Listener running
 Notification Slice: 192 --> Job Listener ready
 Notification Slice: 193 --> Scheduler running
-Notification Slice: 193 --> Scheduler found 2 jobs
+Notification Slice: 193 --> Scheduler found 1 jobs
 Notification Slice: 193 --> Scheduler ready
-Notification Slice: 194 --> Thread 1 running
-Notification Slice: 194 --> Thread 1 ready
+Notification Slice: 194 --> Job Listener running
+Notification Slice: 194 --> Job Listener ready
 Notification Slice: 195 --> Scheduler running
-Notification Slice: 195 --> Scheduler found 2 jobs
-Notification Slice: 196 --> Job Listener running
+Notification Slice: 195 --> Scheduler found 1 jobs
 Notification Slice: 195 --> Scheduler ready
+Notification Slice: 196 --> Job Listener running
 Notification Slice: 196 --> Job Listener ready
 Notification Slice: 197 --> Scheduler running
-Notification Slice: 197 --> Scheduler found 2 jobs
+Notification Slice: 197 --> Scheduler found 1 jobs
 Notification Slice: 197 --> Scheduler ready
-Notification Slice: 198 --> Thread 1 running
-Notification Slice: 198 --> Thread 1 is using: 42-42
-Notification Slice: 198 --> Thread 1 ready
+Notification Slice: 198 --> Job Listener running
+Notification Slice: 198 --> Job Listener ready
 Notification Slice: 199 --> Scheduler running
-Notification Slice: 199 --> Scheduler found 2 jobs
-Notification Slice: 200 --> Job Listener running
+Notification Slice: 199 --> Scheduler found 1 jobs
 Notification Slice: 199 --> Scheduler ready
+Notification Slice: 200 --> Job Listener running
 Notification Slice: 200 --> Job Listener ready
 Notification Slice: 201 --> Scheduler running
-Notification Slice: 201 --> Scheduler found 2 jobs
+Notification Slice: 201 --> Scheduler found 1 jobs
 Notification Slice: 201 --> Scheduler ready
-Notification Slice: 202 --> Thread 1 running
-Notification Slice: 202 --> Thread 1 is using: 43-43
-Notification Slice: 202 --> Thread 1 ready
+Notification Slice: 202 --> Job Listener running
+Notification Slice: 202 --> Job Listener ready
 Notification Slice: 203 --> Scheduler running
-Notification Slice: 203 --> Scheduler found 2 jobs
+Notification Slice: 203 --> Scheduler found 1 jobs
 Notification Slice: 203 --> Scheduler ready
 Notification Slice: 204 --> Job Listener running
 Notification Slice: 204 --> Job Listener ready
 Notification Slice: 205 --> Scheduler running
-Notification Slice: 205 --> Scheduler found 2 jobs
+Notification Slice: 205 --> Scheduler found 1 jobs
 Notification Slice: 205 --> Scheduler ready
-Notification Slice: 206 --> Thread 1 running
-Notification Slice: 206 --> Thread 1 ready
+Notification Slice: 206 --> Job Listener running
+Notification Slice: 206 --> Job Listener ready
 Notification Slice: 207 --> Scheduler running
-Notification Slice: 207 --> Scheduler found 2 jobs
+Notification Slice: 207 --> Scheduler found 1 jobs
 Notification Slice: 207 --> Scheduler ready
 Notification Slice: 208 --> Job Listener running
 Notification Slice: 208 --> Job Listener ready
 Notification Slice: 209 --> Scheduler running
-Notification Slice: 209 --> Scheduler found 2 jobs
+Notification Slice: 209 --> Scheduler found 1 jobs
+Notification Slice: 210 --> Job Listener running
 Notification Slice: 209 --> Scheduler ready
-Notification Slice: 210 --> Thread 1 running
-Notification Slice: 210 --> Thread 1 is using: 44-44
-Notification Slice: 210 --> Thread 1 ready
+Notification Slice: 210 --> Job Listener ready
 Notification Slice: 211 --> Scheduler running
-Notification Slice: 211 --> Scheduler found 2 jobs
+Notification Slice: 211 --> Scheduler found 1 jobs
 Notification Slice: 211 --> Scheduler ready
 Notification Slice: 212 --> Job Listener running
 Notification Slice: 212 --> Job Listener ready
 Notification Slice: 213 --> Scheduler running
-Notification Slice: 213 --> Scheduler found 2 jobs
+Notification Slice: 213 --> Scheduler found 1 jobs
 Notification Slice: 213 --> Scheduler ready
-Notification Slice: 214 --> Thread 1 running
-Notification Slice: 214 --> Thread 1 ready
+Notification Slice: 214 --> Job Listener running
+Notification Slice: 214 --> Job Listener ready
 Notification Slice: 215 --> Scheduler running
-Notification Slice: 215 --> Scheduler found 2 jobs
+Notification Slice: 215 --> Scheduler found 1 jobs
 Notification Slice: 215 --> Scheduler ready
 Notification Slice: 216 --> Job Listener running
 Notification Slice: 216 --> Job Listener ready
 Notification Slice: 217 --> Scheduler running
-Notification Slice: 217 --> Scheduler found 2 jobs
+Notification Slice: 217 --> Scheduler found 1 jobs
 Notification Slice: 217 --> Scheduler ready
-Notification Slice: 218 --> Thread 1 running
-Notification Slice: 218 --> Thread 1 is using: 45-45
-Notification Slice: 218 --> Thread 1 ready
+Notification Slice: 218 --> Job Listener running
+Notification Slice: 218 --> Job Listener ready
 Notification Slice: 219 --> Scheduler running
-Notification Slice: 219 --> Scheduler found 2 jobs
-Notification Slice: 220 --> Job Listener running
+Notification Slice: 219 --> Scheduler found 1 jobs
 Notification Slice: 219 --> Scheduler ready
+Notification Slice: 220 --> Job Listener running
 Notification Slice: 220 --> Job Listener ready
 Notification Slice: 221 --> Scheduler running
-Notification Slice: 221 --> Scheduler found 2 jobs
+Notification Slice: 221 --> Scheduler found 1 jobs
 Notification Slice: 221 --> Scheduler ready
-Notification Slice: 222 --> Thread 1 running
-Notification Slice: 222 --> Thread 1 ready
+Notification Slice: 222 --> Job Listener running
+Notification Slice: 222 --> Job Listener ready
 Notification Slice: 223 --> Scheduler running
-Notification Slice: 223 --> Scheduler found 2 jobs
+Notification Slice: 223 --> Scheduler found 1 jobs
 Notification Slice: 223 --> Scheduler ready
 Notification Slice: 224 --> Job Listener running
 Notification Slice: 224 --> Job Listener ready
 Notification Slice: 225 --> Scheduler running
-Notification Slice: 225 --> Scheduler found 2 jobs
+Notification Slice: 225 --> Scheduler found 1 jobs
 Notification Slice: 225 --> Scheduler ready
-Notification Slice: 226 --> Thread 1 running
-Notification Slice: 226 --> Thread 1 is using: 46-46
-Notification Slice: 226 --> Thread 1 ready
+Notification Slice: 226 --> Job Listener running
+Notification Slice: 226 --> Job Listener ready
 Notification Slice: 227 --> Scheduler running
-Notification Slice: 227 --> Scheduler found 2 jobs
+Notification Slice: 227 --> Scheduler found 1 jobs
 Notification Slice: 227 --> Scheduler ready
 Notification Slice: 228 --> Job Listener running
 Notification Slice: 228 --> Job Listener ready
 Notification Slice: 229 --> Scheduler running
-Notification Slice: 229 --> Scheduler found 2 jobs
+Notification Slice: 229 --> Scheduler found 1 jobs
 Notification Slice: 229 --> Scheduler ready
-Notification Slice: 230 --> Thread 1 running
-Notification Slice: 230 --> Thread 1 ready
+Notification Slice: 230 --> Job Listener running
+Notification Slice: 230 --> Job Listener ready
 Notification Slice: 231 --> Scheduler running
-Notification Slice: 231 --> Scheduler found 2 jobs
+Notification Slice: 231 --> Scheduler found 1 jobs
 Notification Slice: 231 --> Scheduler ready
 Notification Slice: 232 --> Job Listener running
 Notification Slice: 232 --> Job Listener ready
 Notification Slice: 233 --> Scheduler running
-Notification Slice: 233 --> Scheduler found 2 jobs
+Notification Slice: 233 --> Scheduler found 1 jobs
 Notification Slice: 233 --> Scheduler ready
 Notification Slice: 234 --> Job Listener running
 Notification Slice: 234 --> Job Listener ready
 Notification Slice: 235 --> Scheduler running
-Notification Slice: 235 --> Scheduler found 2 jobs
+Notification Slice: 235 --> Scheduler found 1 jobs
 Notification Slice: 235 --> Scheduler ready
-Notification Slice: 236 --> Thread 1 running
-Notification Slice: 236 --> Thread 1 is using: 47-47
-Notification Slice: 236 --> Thread 1 ready
+Notification Slice: 236 --> Job Listener running
+Notification Slice: 236 --> Job Listener ready
 Notification Slice: 237 --> Scheduler running
-Notification Slice: 237 --> Scheduler found 2 jobs
+Notification Slice: 237 --> Scheduler found 1 jobs
 Notification Slice: 237 --> Scheduler ready
 Notification Slice: 238 --> Job Listener running
 Notification Slice: 238 --> Job Listener ready
 Notification Slice: 239 --> Scheduler running
-Notification Slice: 239 --> Scheduler found 2 jobs
+Notification Slice: 239 --> Scheduler found 1 jobs
 Notification Slice: 239 --> Scheduler ready
-Notification Slice: 240 --> Thread 1 running
-Notification Slice: 240 --> Thread 1 is using: 48-48
-Notification Slice: 240 --> Thread 1 ready
+Notification Slice: 240 --> Job Listener running
+Notification Slice: 240 --> Job Listener ready
 Notification Slice: 241 --> Scheduler running
-Notification Slice: 241 --> Scheduler found 2 jobs
-Notification Slice: 241 --> Scheduler ready
+Notification Slice: 241 --> Scheduler found 1 jobs
 Notification Slice: 242 --> Job Listener running
+Notification Slice: 241 --> Scheduler ready
 Notification Slice: 242 --> Job Listener ready
 Notification Slice: 243 --> Scheduler running
-Notification Slice: 243 --> Scheduler found 2 jobs
+Notification Slice: 243 --> Scheduler found 1 jobs
 Notification Slice: 243 --> Scheduler ready
-Notification Slice: 244 --> Thread 1 running
-Notification Slice: 244 --> Thread 1 ready
+Notification Slice: 244 --> Job Listener running
+Notification Slice: 244 --> Job Listener ready
 Notification Slice: 245 --> Scheduler running
-Notification Slice: 245 --> Scheduler found 2 jobs
+Notification Slice: 245 --> Scheduler found 1 jobs
 Notification Slice: 245 --> Scheduler ready
 Notification Slice: 246 --> Job Listener running
 Notification Slice: 246 --> Job Listener ready
 Notification Slice: 247 --> Scheduler running
-Notification Slice: 247 --> Scheduler found 2 jobs
+Notification Slice: 247 --> Scheduler found 1 jobs
 Notification Slice: 247 --> Scheduler ready
-Notification Slice: 248 --> Thread 1 running
-Notification Slice: 248 --> Thread 1 is using: 49-49
-Notification Slice: 248 --> Thread 1 ready
+Notification Slice: 248 --> Job Listener running
+Notification Slice: 248 --> Job Listener ready
 Notification Slice: 249 --> Scheduler running
-Notification Slice: 249 --> Scheduler found 2 jobs
+Notification Slice: 249 --> Scheduler found 1 jobs
 Notification Slice: 249 --> Scheduler ready
 Notification Slice: 250 --> Job Listener running
 Notification Slice: 250 --> Job Listener ready
 Notification Slice: 251 --> Scheduler running
-Notification Slice: 251 --> Scheduler found 2 jobs
+Notification Slice: 251 --> Scheduler found 1 jobs
 Notification Slice: 251 --> Scheduler ready
-Notification Slice: 252 --> Thread 1 running
-Notification Slice: 252 --> Thread 1 ready
+Notification Slice: 252 --> Job Listener running
+Notification Slice: 252 --> Job Listener ready
 Notification Slice: 253 --> Scheduler running
-Notification Slice: 253 --> Scheduler found 2 jobs
+Notification Slice: 253 --> Scheduler found 1 jobs
 Notification Slice: 253 --> Scheduler ready
 Notification Slice: 254 --> Job Listener running
 Notification Slice: 254 --> Job Listener ready
 Notification Slice: 255 --> Scheduler running
-Notification Slice: 255 --> Scheduler found 2 jobs
+Notification Slice: 255 --> Scheduler found 1 jobs
 Notification Slice: 255 --> Scheduler ready
-Notification Slice: 256 --> Thread 1 running
-Notification Slice: 256 --> Thread 1 is using: 50-50
-Notification Slice: 256 --> Thread 1 ready
-Notification Slice: 257 --> Scheduler running
-Notification Slice: 257 --> Scheduler found 2 jobs
-Notification Slice: 257 --> Scheduler ready
-Notification Slice: 258 --> Job Listener running
-Notification Slice: 258 --> Job Listener ready
-Notification Slice: 259 --> Scheduler running
-Notification Slice: 259 --> Scheduler found 2 jobs
-Notification Slice: 259 --> Scheduler ready
-Notification Slice: 260 --> Thread 1 running
-Notification Slice: 260 --> Thread 1 ready
-Notification Slice: 261 --> Scheduler running
-Notification Slice: 261 --> Scheduler found 2 jobs
-Notification Slice: 261 --> Scheduler ready
-Notification Slice: 262 --> Job Listener running
-Notification Slice: 262 --> Job Listener ready
-Notification Slice: 263 --> Scheduler running
-Notification Slice: 263 --> Scheduler found 2 jobs
-Notification Slice: 263 --> Scheduler ready
-Notification Slice: 264 --> Thread 1 running
-Notification Slice: 264 --> Thread 1 is using: 51-51
-Notification Slice: 264 --> Thread 1 ready
-Notification Slice: 265 --> Scheduler running
-Notification Slice: 265 --> Scheduler found 2 jobs
-Notification Slice: 265 --> Scheduler ready
-Notification Slice: 266 --> Job Listener running
-Notification Slice: 266 --> Job Listener ready
-Notification Slice: 267 --> Scheduler running
-Notification Slice: 267 --> Scheduler found 2 jobs
-Notification Slice: 267 --> Scheduler ready
-Notification Slice: 268 --> Thread 1 running
-Notification Slice: 268 --> Thread 1 ready
-Notification Slice: 269 --> Scheduler running
-Notification Slice: 269 --> Scheduler found 2 jobs
-Notification Slice: 269 --> Scheduler ready
-Notification Slice: 270 --> Job Listener running
-Notification Slice: 270 --> Job Listener ready
-Notification Slice: 271 --> Scheduler running
-Notification Slice: 271 --> Scheduler found 2 jobs
-Notification Slice: 271 --> Scheduler ready
-Notification Slice: 272 --> Thread 1 running
-Notification Slice: 272 --> Thread 1 is using: 52-52
-Notification Slice: 272 --> Thread 1 ready
-Notification Slice: 273 --> Scheduler running
-Notification Slice: 273 --> Scheduler found 2 jobs
-Notification Slice: 273 --> Scheduler ready
-Notification Slice: 274 --> Job Listener running
-Notification Slice: 274 --> Job Listener ready
-Notification Slice: 275 --> Scheduler running
-Notification Slice: 275 --> Scheduler found 2 jobs
-Notification Slice: 275 --> Scheduler ready
-Notification Slice: 276 --> Thread 1 running
-Notification Slice: 276 --> Thread 1 is using: 53-53
-Notification Slice: 276 --> Thread 1 ready
-Notification Slice: 277 --> Scheduler running
-Notification Slice: 277 --> Scheduler found 2 jobs
-Notification Slice: 277 --> Scheduler ready
-Notification Slice: 278 --> Job Listener running
-Notification Slice: 278 --> Job Listener ready
-Notification Slice: 279 --> Scheduler running
-Notification Slice: 279 --> Scheduler found 2 jobs
-Notification Slice: 279 --> Scheduler ready
-Notification Slice: 280 --> Thread 1 running
-Notification Slice: 280 --> Thread 1 ready
-Notification Slice: 281 --> Scheduler running
-Notification Slice: 281 --> Scheduler found 2 jobs
-Notification Slice: 281 --> Scheduler ready
-Notification Slice: 282 --> Job Listener running
-Notification Slice: 282 --> Job Listener ready
-Notification Slice: 283 --> Scheduler running
-Notification Slice: 283 --> Scheduler found 2 jobs
-Notification Slice: 283 --> Scheduler ready
-Notification Slice: 284 --> Thread 1 running
-Notification Slice: 284 --> Thread 1 is using: 54-54
-Notification Slice: 284 --> Thread 1 ready
-Notification Slice: 285 --> Scheduler running
-Notification Slice: 285 --> Scheduler found 2 jobs
-Notification Slice: 285 --> Scheduler ready
-Notification Slice: 286 --> Job Listener running
-Notification Slice: 286 --> Job Listener ready
-Notification Slice: 287 --> Scheduler running
-Notification Slice: 287 --> Scheduler found 2 jobs
-Notification Slice: 287 --> Scheduler ready
-Notification Slice: 288 --> Thread 1 running
-Notification Slice: 288 --> Thread 1 ready
-Notification Slice: 289 --> Scheduler running
-Notification Slice: 289 --> Scheduler found 2 jobs
-Notification Slice: 289 --> Scheduler ready
-Notification Slice: 290 --> Job Listener running
-Notification Slice: 290 --> Job Listener ready
-Notification Slice: 291 --> Scheduler running
-Notification Slice: 291 --> Scheduler found 2 jobs
-Notification Slice: 291 --> Scheduler ready
-Notification Slice: 292 --> Thread 1 running
-Notification Slice: 292 --> Thread 1 is using: 55-55
-Notification Slice: 292 --> Thread 1 ready
-Notification Slice: 293 --> Scheduler running
-Notification Slice: 293 --> Scheduler found 2 jobs
-Notification Slice: 293 --> Scheduler ready
-Notification Slice: 294 --> Job Listener running
-Notification Slice: 294 --> Job Listener ready
-Notification Slice: 295 --> Scheduler running
-Notification Slice: 295 --> Scheduler found 2 jobs
-Notification Slice: 295 --> Scheduler ready
-Notification Slice: 296 --> Thread 1 running
-Notification Slice: 296 --> Thread 1 ready
-Notification Slice: 297 --> Scheduler running
-Notification Slice: 297 --> Scheduler found 2 jobs
-Notification Slice: 297 --> Scheduler ready
-Notification Slice: 298 --> Job Listener running
-Notification Slice: 298 --> Job Listener ready
-Notification Slice: 299 --> Scheduler running
-Notification Slice: 299 --> Scheduler found 2 jobs
-Notification Slice: 299 --> Scheduler ready
-Notification Slice: 300 --> Thread 1 running
-Notification Slice: 300 --> Thread 1 is using: 56-56
-Notification Slice: 300 --> Thread 1 ready
-Notification Slice: 301 --> Scheduler running
-Notification Slice: 301 --> Scheduler found 2 jobs
-Notification Slice: 301 --> Scheduler ready
-Notification Slice: 302 --> Job Listener running
-Notification Slice: 302 --> Job Listener ready
-Notification Slice: 303 --> Scheduler running
-Notification Slice: 303 --> Scheduler found 2 jobs
-Notification Slice: 303 --> Scheduler ready
-Notification Slice: 304 --> Thread 1 running
-Notification Slice: 304 --> Thread 1 ready
-Notification Slice: 305 --> Scheduler running
-Notification Slice: 305 --> Scheduler found 2 jobs
-Notification Slice: 305 --> Scheduler ready
-Notification Slice: 306 --> Job Listener running
-Notification Slice: 306 --> Job Listener ready
-Notification Slice: 307 --> Scheduler running
-Notification Slice: 307 --> Scheduler found 2 jobs
-Notification Slice: 307 --> Scheduler ready
-Notification Slice: 308 --> Thread 1 running
-Notification Slice: 308 --> Thread 1 is using: 57-57
-Notification Slice: 308 --> Thread 1 ready
-Notification Slice: 309 --> Scheduler running
-Notification Slice: 309 --> Scheduler found 2 jobs
-Notification Slice: 309 --> Scheduler ready
-Notification Slice: 310 --> Job Listener running
-Notification Slice: 310 --> Job Listener ready
-Notification Slice: 311 --> Scheduler running
-Notification Slice: 311 --> Scheduler found 2 jobs
-Notification Slice: 311 --> Scheduler ready
-Notification Slice: 312 --> Thread 1 running
-Notification Slice: 312 --> Thread 1 is using: 58-58
-Notification Slice: 312 --> Thread 1 ready
-Notification Slice: 313 --> Scheduler running
-Notification Slice: 313 --> Scheduler found 2 jobs
-Notification Slice: 313 --> Scheduler ready
-Notification Slice: 314 --> Job Listener running
-Notification Slice: 314 --> Job Listener ready
-Notification Slice: 315 --> Scheduler running
-Notification Slice: 315 --> Scheduler found 2 jobs
-Notification Slice: 315 --> Scheduler ready
-Notification Slice: 316 --> Thread 1 running
-Notification Slice: 316 --> Thread 1 ready
-Notification Slice: 317 --> Scheduler running
-Notification Slice: 317 --> Scheduler found 2 jobs
-Notification Slice: 317 --> Scheduler ready
-Notification Slice: 318 --> Job Listener running
-Notification Slice: 318 --> Job Listener ready
-Notification Slice: 319 --> Scheduler running
-Notification Slice: 319 --> Scheduler found 2 jobs
-Notification Slice: 319 --> Scheduler ready
-Notification Slice: 320 --> Thread 1 running
-Notification Slice: 320 --> Thread 1 is using: 59-59
-Notification Slice: 320 --> Thread 1 ready
-Notification Slice: 321 --> Scheduler running
-Notification Slice: 321 --> Scheduler found 2 jobs
-Notification Slice: 321 --> Scheduler ready
-Notification Slice: 322 --> Job Listener running
-Notification Slice: 322 --> Job Listener ready
-Notification Slice: 323 --> Scheduler running
-Notification Slice: 323 --> Scheduler found 2 jobs
-Notification Slice: 323 --> Scheduler ready
-Notification Slice: 324 --> Thread 1 running
-Notification Slice: 324 --> Thread 1 ready
-Notification Slice: 325 --> Scheduler running
-Notification Slice: 325 --> Scheduler found 2 jobs
-Notification Slice: 325 --> Scheduler ready
-Notification Slice: 326 --> Job Listener running
-Notification Slice: 326 --> Job Listener ready
-Notification Slice: 327 --> Scheduler running
-Notification Slice: 327 --> Scheduler found 2 jobs
-Notification Slice: 327 --> Scheduler ready
-Notification Slice: 328 --> Thread 1 running
-Notification Slice: 328 --> Thread 1 is using: 60-60
-Notification Slice: 328 --> Thread 1 ready
-Notification Slice: 329 --> Scheduler running
-Notification Slice: 329 --> Scheduler found 2 jobs
-Notification Slice: 329 --> Scheduler ready
-Notification Slice: 330 --> Job Listener running
-Notification Slice: 330 --> Job Listener ready
-Notification Slice: 331 --> Scheduler running
-Notification Slice: 331 --> Scheduler found 2 jobs
-Notification Slice: 331 --> Scheduler ready
-Notification Slice: 332 --> Thread 1 running
-Notification Slice: 332 --> Thread 1 ready
-Notification Slice: 333 --> Scheduler running
-Notification Slice: 333 --> Scheduler found 2 jobs
-Notification Slice: 333 --> Scheduler ready
-Notification Slice: 334 --> Job Listener running
-Notification Slice: 334 --> Job Listener ready
-Notification Slice: 335 --> Scheduler running
-Notification Slice: 335 --> Scheduler found 2 jobs
-Notification Slice: 335 --> Scheduler ready
-Notification Slice: 336 --> Thread 1 running
-Notification Slice: 336 --> Thread 1 is using: 61-61
-Notification Slice: 336 --> Thread 1 ready
-Notification Slice: 337 --> Scheduler running
-Notification Slice: 337 --> Scheduler found 2 jobs
-Notification Slice: 337 --> Scheduler ready
-Notification Slice: 338 --> Job Listener running
-Notification Slice: 338 --> Job Listener ready
-Notification Slice: 339 --> Scheduler running
-Notification Slice: 339 --> Scheduler found 2 jobs
-Notification Slice: 339 --> Scheduler ready
-Notification Slice: 340 --> Thread 1 running
-Notification Slice: 340 --> Thread 1 ready
-Notification Slice: 341 --> Scheduler running
-Notification Slice: 341 --> Scheduler found 2 jobs
-Notification Slice: 341 --> Scheduler ready
-Notification Slice: 342 --> Job Listener running
-Notification Slice: 342 --> Job Listener ready
-Notification Slice: 343 --> Scheduler running
-Notification Slice: 343 --> Scheduler found 2 jobs
-Notification Slice: 343 --> Scheduler ready
-Notification Slice: 344 --> Thread 1 running
-Notification Slice: 344 --> Thread 1 is using: 62-62
-Notification Slice: 344 --> Thread 1 ready
-Notification Slice: 345 --> Scheduler running
-Notification Slice: 345 --> Scheduler found 2 jobs
-Notification Slice: 345 --> Scheduler ready
-Notification Slice: 346 --> Job Listener running
-Notification Slice: 346 --> Job Listener ready
-Notification Slice: 347 --> Scheduler running
-Notification Slice: 347 --> Scheduler found 2 jobs
-Notification Slice: 347 --> Scheduler ready
-Notification Slice: 348 --> Thread 1 running
-Notification Slice: 348 --> Thread 1 is using: 63-63
-Notification Slice: 348 --> Thread 1 ready
-Notification Slice: 349 --> Scheduler running
-Notification Slice: 349 --> Scheduler found 2 jobs
-Notification Slice: 349 --> Scheduler ready
-Notification Slice: 350 --> Job Listener running
-Notification Slice: 350 --> Job Listener ready
-Notification Slice: 351 --> Scheduler running
-Notification Slice: 351 --> Scheduler found 2 jobs
-Notification Slice: 351 --> Scheduler ready
-Notification Slice: 352 --> Thread 1 running
-Notification Slice: 352 --> Thread 1 ready
-Notification Slice: 353 --> Scheduler running
-Notification Slice: 353 --> Scheduler found 2 jobs
-Notification Slice: 353 --> Scheduler ready
-Notification Slice: 354 --> Job Listener running
-Notification Slice: 354 --> Job Listener ready
-Notification Slice: 355 --> Scheduler running
-Notification Slice: 355 --> Scheduler found 2 jobs
-Notification Slice: 355 --> Scheduler ready
-Notification Slice: 356 --> Thread 1 running
-Notification Slice: 356 --> Thread 1 is using: 64-64
-Notification Slice: 356 --> Thread 1 ready
-Notification Slice: 357 --> Scheduler running
-Notification Slice: 357 --> Scheduler found 2 jobs
-Notification Slice: 357 --> Scheduler ready
-Notification Slice: 358 --> Job Listener running
-Notification Slice: 358 --> Job Listener ready
-Notification Slice: 359 --> Scheduler running
-Notification Slice: 359 --> Scheduler found 2 jobs
-Notification Slice: 359 --> Scheduler ready
-Notification Slice: 360 --> Thread 1 running
-Notification Slice: 360 --> Thread 1 ready
-Notification Slice: 361 --> Scheduler running
-Notification Slice: 361 --> Scheduler found 2 jobs
-Notification Slice: 361 --> Scheduler ready
-Notification Slice: 362 --> Job Listener running
-Notification Slice: 362 --> Job Listener ready
-Notification Slice: 363 --> Scheduler running
-Notification Slice: 363 --> Scheduler found 2 jobs
-Notification Slice: 363 --> Scheduler ready
-Notification Slice: 364 --> Thread 1 running
-Notification Slice: 364 --> Thread 1 is using: 65-65
-Notification Slice: 364 --> Thread 1 ready
-Notification Slice: 365 --> Scheduler running
-Notification Slice: 365 --> Scheduler found 2 jobs
-Notification Slice: 365 --> Scheduler ready
-Notification Slice: 366 --> Job Listener running
-Notification Slice: 366 --> Job Listener ready
-Notification Slice: 367 --> Scheduler running
-Notification Slice: 367 --> Scheduler found 2 jobs
-Notification Slice: 367 --> Scheduler ready
-Notification Slice: 368 --> Thread 1 running
-Notification Slice: 368 --> Thread 1 ready
-Notification Slice: 369 --> Scheduler running
-Notification Slice: 369 --> Scheduler found 2 jobs
-Notification Slice: 369 --> Scheduler ready
-Notification Slice: 370 --> Job Listener running
-Notification Slice: 370 --> Job Listener ready
-Notification Slice: 371 --> Scheduler running
-Notification Slice: 371 --> Scheduler found 2 jobs
-Notification Slice: 371 --> Scheduler ready
-Notification Slice: 372 --> Thread 1 running
-Notification Slice: 372 --> Thread 1 is using: 66-66
-Notification Slice: 372 --> Thread 1 ready
-Notification Slice: 373 --> Scheduler running
-Notification Slice: 373 --> Scheduler found 2 jobs
-Notification Slice: 373 --> Scheduler ready
-Notification Slice: 374 --> Job Listener running
-Notification Slice: 374 --> Job Listener ready
-Notification Slice: 375 --> Scheduler running
-Notification Slice: 375 --> Scheduler found 2 jobs
-Notification Slice: 375 --> Scheduler ready
-Notification Slice: 376 --> Job Listener running
-Notification Slice: 376 --> Job Listener ready
-Notification Slice: 377 --> Scheduler running
-Notification Slice: 377 --> Scheduler found 2 jobs
-Notification Slice: 377 --> Scheduler ready
-Notification Slice: 378 --> Thread 1 running
-Notification Slice: 378 --> Thread 1 ready
-Notification Slice: 379 --> Scheduler running
-Notification Slice: 379 --> Scheduler found 2 jobs
-Notification Slice: 379 --> Scheduler ready
-Notification Slice: 380 --> Job Listener running
-Notification Slice: 380 --> Job Listener ready
-Notification Slice: 381 --> Scheduler running
-Notification Slice: 381 --> Scheduler found 2 jobs
-Notification Slice: 381 --> Scheduler ready
-Notification Slice: 382 --> Thread 1 running
-Notification Slice: 382 --> Thread 1 is using: 67-67
-Notification Slice: 382 --> Thread 1 ready
-Notification Slice: 383 --> Scheduler running
-Notification Slice: 383 --> Scheduler found 2 jobs
-Notification Slice: 383 --> Scheduler ready
-Notification Slice: 384 --> Job Listener running
-Notification Slice: 384 --> Job Listener ready
-Notification Slice: 385 --> Scheduler running
-Notification Slice: 385 --> Scheduler found 2 jobs
-Notification Slice: 385 --> Scheduler ready
-Notification Slice: 386 --> Thread 1 running
-Notification Slice: 386 --> Thread 1 is using: 68-68
-Notification Slice: 386 --> Thread 1 ready
-Notification Slice: 387 --> Scheduler running
-Notification Slice: 387 --> Scheduler found 2 jobs
-Notification Slice: 387 --> Scheduler ready
-Notification Slice: 388 --> Job Listener running
-Notification Slice: 388 --> Job Listener ready
-Notification Slice: 389 --> Scheduler running
-Notification Slice: 389 --> Scheduler found 2 jobs
-Notification Slice: 389 --> Scheduler ready
-Notification Slice: 390 --> Thread 1 running
-Notification Slice: 390 --> Thread 1 ready
-Notification Slice: 391 --> Scheduler running
-Notification Slice: 391 --> Scheduler found 2 jobs
-Notification Slice: 391 --> Scheduler ready
-Notification Slice: 392 --> Job Listener running
-Notification Slice: 392 --> Job Listener ready
-Notification Slice: 393 --> Scheduler running
-Notification Slice: 393 --> Scheduler found 2 jobs
-Notification Slice: 393 --> Scheduler ready
-Notification Slice: 394 --> Thread 1 running
-Notification Slice: 394 --> Thread 1 is using: 69-69
-Notification Slice: 394 --> Thread 1 ready
-Notification Slice: 395 --> Scheduler running
-Notification Slice: 395 --> Scheduler found 2 jobs
-Notification Slice: 395 --> Scheduler ready
-Notification Slice: 396 --> Job Listener running
-Notification Slice: 396 --> Job Listener ready
-Notification Slice: 397 --> Scheduler running
-Notification Slice: 397 --> Scheduler found 2 jobs
-Notification Slice: 397 --> Scheduler ready
-Notification Slice: 398 --> Thread 1 running
-Notification Slice: 398 --> Thread 1 ready
-Notification Slice: 399 --> Scheduler running
-Notification Slice: 399 --> Scheduler found 2 jobs
-Notification Slice: 399 --> Scheduler ready
-Notification Slice: 400 --> Job Listener running
-Notification Slice: 400 --> Job Listener ready
-Notification Slice: 401 --> Scheduler running
-Notification Slice: 401 --> Scheduler found 2 jobs
-Notification Slice: 401 --> Scheduler ready
-Notification Slice: 402 --> Thread 1 running
-Notification Slice: 402 --> Thread 1 is using: 70-70
-Notification Slice: 402 --> Thread 1 ready
-Notification Slice: 403 --> Scheduler running
-Notification Slice: 403 --> Scheduler found 2 jobs
-Notification Slice: 403 --> Scheduler ready
-Notification Slice: 404 --> Job Listener running
-Notification Slice: 404 --> Job Listener ready
-Notification Slice: 405 --> Scheduler running
-Notification Slice: 405 --> Scheduler found 2 jobs
-Notification Slice: 405 --> Scheduler ready
-Notification Slice: 406 --> Thread 1 running
-Notification Slice: 406 --> Thread 1 ready
-Notification Slice: 407 --> Scheduler running
-Notification Slice: 407 --> Scheduler found 2 jobs
-Notification Slice: 407 --> Scheduler ready
-Notification Slice: 408 --> Job Listener running
-Notification Slice: 408 --> Job Listener ready
-Notification Slice: 409 --> Scheduler running
-Notification Slice: 409 --> Scheduler found 2 jobs
-Notification Slice: 409 --> Scheduler ready
-Notification Slice: 410 --> Thread 1 running
-Notification Slice: 410 --> Thread 1 is using: 71-71
-Notification Slice: 410 --> Thread 1 ready
-Notification Slice: 411 --> Scheduler running
-Notification Slice: 411 --> Scheduler found 2 jobs
-Notification Slice: 411 --> Scheduler ready
-Notification Slice: 412 --> Job Listener running
-Notification Slice: 412 --> Job Listener ready
-Notification Slice: 413 --> Scheduler running
-Notification Slice: 413 --> Scheduler found 2 jobs
-Notification Slice: 413 --> Scheduler ready
-Notification Slice: 414 --> Thread 1 running
-Notification Slice: 414 --> Thread 1 ready
-Notification Slice: 415 --> Scheduler running
-Notification Slice: 415 --> Scheduler found 2 jobs
-Notification Slice: 415 --> Scheduler ready
-Notification Slice: 416 --> Job Listener running
-Notification Slice: 416 --> Job Listener ready
-Notification Slice: 417 --> Scheduler running
-Notification Slice: 417 --> Scheduler found 2 jobs
-Notification Slice: 417 --> Scheduler ready
-Notification Slice: 418 --> Thread 1 running
-Notification Slice: 418 --> Thread 1 is using: 72-72
-Notification Slice: 418 --> Thread 1 ready
-Notification Slice: 419 --> Scheduler running
-Notification Slice: 419 --> Scheduler found 2 jobs
-Notification Slice: 419 --> Scheduler ready
-Notification Slice: 420 --> Job Listener running
-Notification Slice: 420 --> Job Listener ready
-Notification Slice: 421 --> Scheduler running
-Notification Slice: 421 --> Scheduler found 2 jobs
-Notification Slice: 421 --> Scheduler ready
-Notification Slice: 422 --> Thread 1 running
-Notification Slice: 422 --> Thread 1 is using: 73-73
-Notification Slice: 422 --> Thread 1 ready
-Notification Slice: 423 --> Scheduler running
-Notification Slice: 423 --> Scheduler found 2 jobs
-Notification Slice: 423 --> Scheduler ready
-Notification Slice: 424 --> Job Listener running
-Notification Slice: 424 --> Job Listener ready
-Notification Slice: 425 --> Scheduler running
-Notification Slice: 425 --> Scheduler found 2 jobs
-Notification Slice: 425 --> Scheduler ready
-Notification Slice: 426 --> Thread 1 running
-Notification Slice: 426 --> Thread 1 ready
-Notification Slice: 427 --> Scheduler running
-Notification Slice: 427 --> Scheduler found 2 jobs
-Notification Slice: 427 --> Scheduler ready
-Notification Slice: 428 --> Job Listener running
-Notification Slice: 428 --> Job Listener ready
-Notification Slice: 429 --> Scheduler running
-Notification Slice: 429 --> Scheduler found 2 jobs
-Notification Slice: 429 --> Scheduler ready
-Notification Slice: 430 --> Thread 1 running
-Notification Slice: 430 --> Thread 1 is using: 74-74
-Notification Slice: 430 --> Thread 1 ready
-Notification Slice: 431 --> Scheduler running
-Notification Slice: 431 --> Scheduler found 2 jobs
-Notification Slice: 431 --> Scheduler ready
-Notification Slice: 432 --> Job Listener running
-Notification Slice: 432 --> Job Listener ready
-Notification Slice: 433 --> Scheduler running
-Notification Slice: 433 --> Scheduler found 2 jobs
-Notification Slice: 433 --> Scheduler ready
-Notification Slice: 434 --> Thread 1 running
-Notification Slice: 434 --> Thread 1 ready
-Notification Slice: 435 --> Scheduler running
-Notification Slice: 435 --> Scheduler found 2 jobs
-Notification Slice: 435 --> Scheduler ready
-Notification Slice: 436 --> Job Listener running
-Notification Slice: 436 --> Job Listener ready
-Notification Slice: 437 --> Scheduler running
-Notification Slice: 437 --> Scheduler found 2 jobs
-Notification Slice: 437 --> Scheduler ready
-Notification Slice: 438 --> Thread 1 running
-Notification Slice: 438 --> Thread 1 is using: 75-75
-Notification Slice: 438 --> Thread 1 ready
-Notification Slice: 439 --> Scheduler running
-Notification Slice: 439 --> Scheduler found 2 jobs
-Notification Slice: 439 --> Scheduler ready
-Notification Slice: 440 --> Job Listener running
-Notification Slice: 440 --> Job Listener ready
-Notification Slice: 441 --> Scheduler running
-Notification Slice: 441 --> Scheduler found 2 jobs
-Notification Slice: 441 --> Scheduler ready
-Notification Slice: 442 --> Thread 1 running
-Notification Slice: 442 --> Thread 1 ready
-Notification Slice: 443 --> Scheduler running
-Notification Slice: 443 --> Scheduler found 2 jobs
-Notification Slice: 443 --> Scheduler ready
-Notification Slice: 444 --> Job Listener running
-Notification Slice: 444 --> Job Listener ready
-Notification Slice: 445 --> Scheduler running
-Notification Slice: 445 --> Scheduler found 2 jobs
-Notification Slice: 445 --> Scheduler ready
-Notification Slice: 446 --> Thread 1 running
-Notification Slice: 446 --> Thread 1 is using: 76-76
-Notification Slice: 446 --> Thread 1 ready
-Notification Slice: 447 --> Scheduler running
-Notification Slice: 447 --> Scheduler found 2 jobs
-Notification Slice: 447 --> Scheduler ready
-Notification Slice: 448 --> Job Listener running
-Notification Slice: 448 --> Job Listener ready
-Notification Slice: 449 --> Scheduler running
-Notification Slice: 449 --> Scheduler found 2 jobs
-Notification Slice: 449 --> Scheduler ready
-Notification Slice: 450 --> Thread 1 running
-Notification Slice: 450 --> Thread 1 ready
-Notification Slice: 451 --> Scheduler running
-Notification Slice: 451 --> Scheduler found 2 jobs
-Notification Slice: 451 --> Scheduler ready
-Notification Slice: 452 --> Job Listener running
-Notification Slice: 452 --> Job Listener ready
-Notification Slice: 453 --> Scheduler running
-Notification Slice: 453 --> Scheduler found 2 jobs
-Notification Slice: 453 --> Scheduler ready
-Notification Slice: 454 --> Thread 1 running
-Notification Slice: 454 --> Thread 1 is using: 77-77
-Notification Slice: 454 --> Thread 1 ready
-Notification Slice: 455 --> Scheduler running
-Notification Slice: 455 --> Scheduler found 2 jobs
-Notification Slice: 455 --> Scheduler ready
-Notification Slice: 456 --> Job Listener running
-Notification Slice: 456 --> Job Listener ready
-Notification Slice: 457 --> Scheduler running
-Notification Slice: 457 --> Scheduler found 2 jobs
-Notification Slice: 457 --> Scheduler ready
-Notification Slice: 458 --> Thread 1 running
-Notification Slice: 458 --> Thread 1 is using: 78-78
-Notification Slice: 458 --> Thread 1 ready
-Notification Slice: 459 --> Scheduler running
-Notification Slice: 459 --> Scheduler found 2 jobs
-Notification Slice: 459 --> Scheduler ready
-Notification Slice: 460 --> Job Listener running
-Notification Slice: 460 --> Job Listener ready
-Notification Slice: 461 --> Scheduler running
-Notification Slice: 461 --> Scheduler found 2 jobs
-Notification Slice: 461 --> Scheduler ready
-Notification Slice: 462 --> Thread 1 running
-Notification Slice: 462 --> Thread 1 ready
-Notification Slice: 463 --> Scheduler running
-Notification Slice: 463 --> Scheduler found 2 jobs
-Notification Slice: 463 --> Scheduler ready
-Notification Slice: 464 --> Job Listener running
-Notification Slice: 464 --> Job Listener ready
-Notification Slice: 465 --> Scheduler running
-Notification Slice: 465 --> Scheduler found 2 jobs
-Notification Slice: 465 --> Scheduler ready
-Notification Slice: 466 --> Thread 1 running
-Notification Slice: 466 --> Thread 1 is using: 79-79
-Notification Slice: 466 --> Thread 1 ready
-Notification Slice: 467 --> Scheduler running
-Notification Slice: 467 --> Scheduler found 2 jobs
-Notification Slice: 467 --> Scheduler ready
-Notification Slice: 468 --> Job Listener running
-Notification Slice: 468 --> Job Listener ready
-Notification Slice: 469 --> Scheduler running
-Notification Slice: 469 --> Scheduler found 2 jobs
-Notification Slice: 469 --> Scheduler ready
-Notification Slice: 470 --> Thread 1 running
-Notification Slice: 470 --> Thread 1 ready
-Notification Slice: 471 --> Scheduler running
-Notification Slice: 471 --> Scheduler found 2 jobs
-Notification Slice: 471 --> Scheduler ready
-Notification Slice: 472 --> Job Listener running
-Notification Slice: 472 --> Job Listener ready
-Notification Slice: 473 --> Scheduler running
-Notification Slice: 473 --> Scheduler found 2 jobs
-Notification Slice: 473 --> Scheduler ready
-Notification Slice: 474 --> Thread 1 running
-Notification Slice: 474 --> Thread 1 is using: 80-80
-Notification Slice: 474 --> Thread 1 ready
-Notification Slice: 475 --> Scheduler running
-Notification Slice: 475 --> Scheduler found 2 jobs
-Notification Slice: 475 --> Scheduler ready
-Notification Slice: 476 --> Job Listener running
-Notification Slice: 476 --> Job Listener ready
-Notification Slice: 477 --> Scheduler running
-Notification Slice: 477 --> Scheduler found 2 jobs
-Notification Slice: 477 --> Scheduler ready
-Notification Slice: 478 --> Thread 1 running
-Notification Slice: 478 --> Thread 1 ready
-Notification Slice: 479 --> Scheduler running
-Notification Slice: 479 --> Scheduler found 2 jobs
-Notification Slice: 479 --> Scheduler ready
-Notification Slice: 480 --> Job Listener running
-Notification Slice: 480 --> Job Listener ready
-Notification Slice: 481 --> Scheduler running
-Notification Slice: 481 --> Scheduler found 2 jobs
-Notification Slice: 481 --> Scheduler ready
-Notification Slice: 482 --> Thread 1 running
-Notification Slice: 482 --> Thread 1 is using: 81-81
-Notification Slice: 482 --> Thread 1 ready
-Notification Slice: 483 --> Scheduler running
-Notification Slice: 483 --> Scheduler found 2 jobs
-Notification Slice: 483 --> Scheduler ready
-Notification Slice: 484 --> Job Listener running
-Notification Slice: 484 --> Job Listener ready
-Notification Slice: 485 --> Scheduler running
-Notification Slice: 485 --> Scheduler found 2 jobs
-Notification Slice: 485 --> Scheduler ready
-Notification Slice: 486 --> Thread 1 running
-Notification Slice: 486 --> Thread 1 ready
-Notification Slice: 487 --> Scheduler running
-Notification Slice: 487 --> Scheduler found 2 jobs
-Notification Slice: 487 --> Scheduler ready
-Notification Slice: 488 --> Job Listener running
-Notification Slice: 488 --> Job Listener ready
-Notification Slice: 489 --> Scheduler running
-Notification Slice: 489 --> Scheduler found 2 jobs
-Notification Slice: 489 --> Scheduler ready
-Notification Slice: 490 --> Thread 1 running
-Notification Slice: 490 --> Thread 1 terminated
-Notification Slice: 490 --> Thread 1 released its memory.
-Notification Slice: 491 --> Scheduler running
-Notification Slice: 491 --> Scheduler found 1 jobs
-Notification Slice: 491 --> Scheduler ready
-Notification Slice: 491 --> Clock terminated
-Notification Slice: 492 --> Job Listener running
-Notification Slice: 492 --> Job Listener terminated
-Notification Slice: 492 --> Scheduler Terminated
+Notification Slice: 255 --> Clock terminated
+Notification Slice: 256 --> Job Listener running
+Notification Slice: 256 --> Job Listener terminated
+Notification Slice: 256 --> Scheduler Terminated
